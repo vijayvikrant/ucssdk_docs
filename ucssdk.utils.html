@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>utils Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="ucssdk package" href="ucssdk.html"/>
+        <link rel="next" title="ucssdk" href="readme.html"/>
+        <link rel="prev" title="vnic Package" href="ucssdk.mometa.vnic.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="">utils Package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#module-ucssdk.utils.ccoimage"><code class="docutils literal"><span class="pre">ccoimage</span></code> Module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-ucssdk.utils.converttopython"><code class="docutils literal"><span class="pre">converttopython</span></code> Module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-ucssdk.utils.launchgui"><code class="docutils literal"><span class="pre">launchgui</span></code> Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+    <li>utils Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.utils.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="utils-package">
+<h1>utils Package<a class="headerlink" href="#utils-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.utils.ccoimage">
+<span id="ccoimage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ccoimage</span></code> Module<a class="headerlink" href="#module-ucssdk.utils.ccoimage" title="Permalink to this headline">¶</a></h2>
+<p>Copyright 2015 Cisco Systems, Inc.</p>
+<p>Licensed under the Apache License, Version 2.0 (the &#8220;License&#8221;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+<blockquote>
+<div><a class="reference external" href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></div></blockquote>
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &#8220;AS IS&#8221; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+<dl class="class">
+<dt id="ucssdk.utils.ccoimage.UcsCcoImage">
+<em class="property">class </em><code class="descclassname">ucssdk.utils.ccoimage.</code><code class="descname">UcsCcoImage</code><a class="reference internal" href="_modules/ucssdk/utils/ccoimage.html#UcsCcoImage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.ccoimage.UcsCcoImage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>class UcsCcoImage.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ucssdk.utils.ccoimage.get_ucs_cco_image">
+<code class="descclassname">ucssdk.utils.ccoimage.</code><code class="descname">get_ucs_cco_image</code><span class="sig-paren">(</span><em>image=None</em>, <em>path_pattern=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/utils/ccoimage.html#get_ucs_cco_image"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.ccoimage.get_ucs_cco_image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Download specific cco image.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ucssdk.utils.ccoimage.get_ucs_cco_image_list">
+<code class="descclassname">ucssdk.utils.ccoimage.</code><code class="descname">get_ucs_cco_image_list</code><span class="sig-paren">(</span><em>username=None</em>, <em>password=None</em>, <em>mdf_id_list=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/utils/ccoimage.html#get_ucs_cco_image_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.ccoimage.get_ucs_cco_image_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the cco image list from the server.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.utils.converttopython">
+<span id="converttopython-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">converttopython</span></code> Module<a class="headerlink" href="#module-ucssdk.utils.converttopython" title="Permalink to this headline">¶</a></h2>
+<p>Copyright 2013 Cisco Systems, Inc.</p>
+<p>Licensed under the Apache License, Version 2.0 (the &#8220;License&#8221;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+<blockquote>
+<div><a class="reference external" href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></div></blockquote>
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &#8220;AS IS&#8221; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+<dl class="function">
+<dt id="ucssdk.utils.converttopython.convert_to_ucs_python">
+<code class="descclassname">ucssdk.utils.converttopython.</code><code class="descname">convert_to_ucs_python</code><span class="sig-paren">(</span><em>log_path=None</em>, <em>xml=False</em>, <em>request=None</em>, <em>gui_log=False</em>, <em>path=None</em>, <em>literal_path=None</em>, <em>dump_to_file=False</em>, <em>dump_file_path=None</em>, <em>dump_xml=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/utils/converttopython.html#convert_to_ucs_python"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.converttopython.convert_to_ucs_python" title="Permalink to this definition">¶</a></dt>
+<dd><p>By default this will generate python script for the action in UCSM GUI.
+log_path : If by default code unable to identify the location of ucsm logs,
+then use this parameter to specify the directory of ucsm logs.
+xml=True &amp; request=&#8221;xmlstring&#8221;: Generate Python Script for XML Request.
+xml=True &amp; path/LiteralPath: Generate Python script from the file
+containing XML Request.
+gui_log=True &amp; path/LiteralPath: Generate Python script from the
+UCSM GUI logfile.
+displayXML=True will also dispaly corresponding XML Request.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.utils.launchgui">
+<span id="launchgui-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">launchgui</span></code> Module<a class="headerlink" href="#module-ucssdk.utils.launchgui" title="Permalink to this headline">¶</a></h2>
+<p>Copyright 2015 Cisco Systems, Inc.</p>
+<p>Licensed under the Apache License, Version 2.0 (the &#8220;License&#8221;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at</p>
+<blockquote>
+<div><a class="reference external" href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></div></blockquote>
+<p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &#8220;AS IS&#8221; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+<dl class="function">
+<dt id="ucssdk.utils.launchgui.start_ucs_gui_session">
+<code class="descclassname">ucssdk.utils.launchgui.</code><code class="descname">start_ucs_gui_session</code><span class="sig-paren">(</span><em>handle</em>, <em>need_url=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/utils/launchgui.html#start_ucs_gui_session"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.launchgui.start_ucs_gui_session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Launches the UCSM GUI via specific UCS handle.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ucssdk.utils.launchgui.start_ucs_kvm_session">
+<code class="descclassname">ucssdk.utils.launchgui.</code><code class="descname">start_ucs_kvm_session</code><span class="sig-paren">(</span><em>handle</em>, <em>service_profile=None</em>, <em>blade=None</em>, <em>rack_unit=None</em>, <em>frame_title=None</em>, <em>need_url=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/utils/launchgui.html#start_ucs_kvm_session"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.utils.launchgui.start_ucs_kvm_session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts KVM session.</p>
+<p>Launches the KVM session for the specific service profile,
+blade or rack_unit.
+- service_profile specifies an object of type lsServer.</p>
+<blockquote>
+<div>Launches KVM session with which the service profile is associated.</div></blockquote>
+<ul class="simple">
+<li>blade specifies an object of type computeBlade.
+Launches KVM session of blade server.</li>
+<li>rack_unit specifies an object of type computeRackUnit.
+Launches KVM session of rack Unit.</li>
+<li>frame_title specifies the title of the frame window.</li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="readme.html" class="btn btn-neutral float-right" title="ucssdk" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.vnic.html" class="btn btn-neutral" title="vnic Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

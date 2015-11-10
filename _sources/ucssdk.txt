@@ -1,0 +1,168 @@
+ucssdk package
+==============
+
+Subpackages
+-----------
+
+.. toctree::
+
+    ucssdk.methodmeta
+    ucssdk.mometa
+    ucssdk.utils
+
+Submodules
+----------
+
+ucssdk.ucsbasetype module
+-------------------------
+
+.. automodule:: ucssdk.ucsbasetype
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsconnectiondriver module
+---------------------------------
+
+.. automodule:: ucssdk.ucsconnectiondriver
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. commented 
+        ucssdk.ucsconstants module
+        --------------------------
+
+        .. automodule:: ucssdk.ucsconstants
+            :members:
+            :undoc-members:
+            :show-inheritance:
+
+ucssdk.ucscore module
+---------------------
+
+.. automodule:: ucssdk.ucscore
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucscoremeta module
+-------------------------
+
+.. automodule:: ucssdk.ucscoremeta
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucscoreutils module
+--------------------------
+
+.. automodule:: ucssdk.ucscoreutils
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucseventhandler module
+-----------------------------
+
+.. automodule:: ucssdk.ucseventhandler
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsexception module
+--------------------------
+
+.. automodule:: ucssdk.ucsexception
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsfilter module
+-----------------------
+
+.. automodule:: ucssdk.ucsfilter
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsfiltertype module
+---------------------------
+
+.. automodule:: ucssdk.ucsfiltertype
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsgenutils module
+-------------------------
+
+.. automodule:: ucssdk.ucsgenutils
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucshandle module
+-----------------------
+
+.. automodule:: ucssdk.ucshandle
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsmeta module
+---------------------
+
+.. automodule:: ucssdk.ucsmeta
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsmethod module
+-----------------------
+
+.. automodule:: ucssdk.ucsmethod
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsmethodfactory module
+------------------------------
+
+.. automodule:: ucssdk.ucsmethodfactory
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsmo module
+-------------------
+
+.. automodule:: ucssdk.ucsmo
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucssession module
+------------------------
+
+.. automodule:: ucssdk.ucssession
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+ucssdk.ucsxmlcodec module
+-------------------------
+
+.. automodule:: ucssdk.ucsxmlcodec
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: ucssdk
+    :members:
+    :undoc-members:
+    :show-inheritance:

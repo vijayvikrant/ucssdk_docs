@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>ucssdk.ucsconnectiondriver &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="../../index.html"/>
+        <link rel="up" title="Module code" href="../index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ucssdk.html">ucssdk package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      
+    <li>ucssdk.ucsconnectiondriver</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for ucssdk.ucsconnectiondriver</h1><div class="highlight"><pre>
+<span class="c"># Copyright 2015 Cisco Systems, Inc.</span>
+<span class="c">#</span>
+<span class="c"># Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span>
+<span class="c"># you may not use this file except in compliance with the License.</span>
+<span class="c"># You may obtain a copy of the License at</span>
+<span class="c">#  http://www.apache.org/licenses/LICENSE-2.0</span>
+<span class="c">#</span>
+<span class="c"># Unless required by applicable law or agreed to in writing, software</span>
+<span class="c"># distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span>
+<span class="c"># WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span>
+<span class="c"># See the License for the specific language governing permissions and</span>
+<span class="c"># limitations under the License.</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">requests</span>
+
+    <span class="n">requests</span><span class="o">.</span><span class="n">packages</span><span class="o">.</span><span class="n">urllib3</span><span class="o">.</span><span class="n">disable_warnings</span><span class="p">()</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">e</span><span class="o">.</span><span class="n">message</span>
+
+<span class="kn">import</span> <span class="nn">urllib2</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s">&#39;ucs&#39;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="SmartRedirectHandler"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.SmartRedirectHandler">[docs]</a><span class="k">class</span> <span class="nc">SmartRedirectHandler</span><span class="p">(</span><span class="n">urllib2</span><span class="o">.</span><span class="n">HTTPRedirectHandler</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;This class is to handle redirection error.&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="SmartRedirectHandler.http_error_301"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.SmartRedirectHandler.http_error_301">[docs]</a>    <span class="k">def</span> <span class="nf">http_error_301</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">headers</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This is to handle redirection error code 301&quot;&quot;&quot;</span>
+        <span class="n">resp_status</span> <span class="o">=</span> <span class="p">[</span><span class="n">code</span><span class="p">,</span> <span class="n">headers</span><span class="o">.</span><span class="n">dict</span><span class="p">[</span><span class="s">&quot;location&quot;</span><span class="p">]]</span>
+        <span class="k">return</span> <span class="n">resp_status</span>
+</div>
+<div class="viewcode-block" id="SmartRedirectHandler.http_error_302"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.SmartRedirectHandler.http_error_302">[docs]</a>    <span class="k">def</span> <span class="nf">http_error_302</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">headers</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This is to handle redirection error code 302&quot;&quot;&quot;</span>
+        <span class="n">resp_status</span> <span class="o">=</span> <span class="p">[</span><span class="n">code</span><span class="p">,</span> <span class="n">headers</span><span class="o">.</span><span class="n">dict</span><span class="p">[</span><span class="s">&quot;location&quot;</span><span class="p">]]</span>
+        <span class="k">return</span> <span class="n">resp_status</span>
+
+</div></div>
+<div class="viewcode-block" id="UrllibDriver"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UrllibDriver">[docs]</a><span class="k">class</span> <span class="nc">UrllibDriver</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    To Add docstring</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">secure</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">proxy</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__secure</span> <span class="o">=</span> <span class="n">secure</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span> <span class="o">=</span> <span class="n">proxy</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__handlers</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__get_handlers</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__get_handlers</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">handlers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">__secure</span><span class="p">:</span>
+            <span class="n">handlers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">SmartRedirectHandler</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span><span class="p">:</span>
+            <span class="n">proxy_handler</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">ProxyHandler</span><span class="p">(</span>
+                <span class="p">{</span><span class="s">&#39;http&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span><span class="p">,</span> <span class="s">&#39;https&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span><span class="p">})</span>
+            <span class="n">handlers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">proxy_handler</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">handlers</span>
+
+    <span class="k">def</span> <span class="nf">__post_http_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="n">req</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">opener</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">build_opener</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">__handlers</span><span class="p">)</span>
+        <span class="n">resp</span> <span class="o">=</span> <span class="n">opener</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">resp</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">list</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">resp</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">and</span> <span class="p">(</span><span class="n">resp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">302</span> <span class="ow">or</span> <span class="n">resp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">301</span><span class="p">):</span>
+                <span class="n">uri</span> <span class="o">=</span> <span class="n">resp</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">req</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+                <span class="n">resp</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">resp</span>
+
+    <span class="k">def</span> <span class="nf">__post_https_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="n">req</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">opener</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">build_opener</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">__handlers</span><span class="p">)</span>
+        <span class="n">resp</span> <span class="o">=</span> <span class="n">opener</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">resp</span>
+
+<div class="viewcode-block" id="UrllibDriver.get"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UrllibDriver.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">):</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="UrllibDriver.post"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UrllibDriver.post">[docs]</a>    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">__secure</span><span class="p">:</span>
+            <span class="n">resp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__post_https_request</span><span class="p">(</span><span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">resp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__post_http_request</span><span class="p">(</span><span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+
+        <span class="n">rsp</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">rsp</span>
+
+</div></div>
+<div class="viewcode-block" id="RequestDriver"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver">[docs]</a><span class="k">class</span> <span class="nc">RequestDriver</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    To Add docstring</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__validate_certificate</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__timeout</span> <span class="o">=</span> <span class="bp">None</span>
+
+<div class="viewcode-block" id="RequestDriver.validate_certificate"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver.validate_certificate">[docs]</a>    <span class="k">def</span> <span class="nf">validate_certificate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__validate_certificate</span> <span class="o">=</span> <span class="bp">True</span>
+</div>
+<div class="viewcode-block" id="RequestDriver.ignore_certificate"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver.ignore_certificate">[docs]</a>    <span class="k">def</span> <span class="nf">ignore_certificate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__validate_certificate</span> <span class="o">=</span> <span class="bp">False</span>
+</div>
+<div class="viewcode-block" id="RequestDriver.set_timeout"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver.set_timeout">[docs]</a>    <span class="k">def</span> <span class="nf">set_timeout</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__timeout</span> <span class="o">=</span> <span class="n">timeout</span>
+</div>
+    <span class="k">def</span> <span class="nf">__getr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">verify</span><span class="p">,</span> <span class="n">timeout</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">rsp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">verify</span><span class="o">=</span><span class="n">verify</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rsp</span>
+
+    <span class="k">def</span> <span class="nf">__postr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">verify</span><span class="p">,</span> <span class="n">timeout</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">rsp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">verify</span><span class="o">=</span><span class="n">verify</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span>
+                            <span class="n">allow_redirects</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">rsp</span><span class="o">.</span><span class="n">status_code</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">301</span><span class="p">,</span> <span class="mi">302</span><span class="p">]:</span>
+            <span class="n">url</span> <span class="o">=</span> <span class="n">rsp</span><span class="o">.</span><span class="n">headers</span><span class="p">[</span><span class="s">&#39;location&#39;</span><span class="p">]</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__postr</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">verify</span><span class="p">,</span> <span class="n">timeout</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rsp</span>
+
+<div class="viewcode-block" id="RequestDriver.get"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        uri:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__getr</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">uri</span><span class="p">,</span>
+                           <span class="n">verify</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__validate_certificate</span><span class="p">,</span>
+                           <span class="n">timeout</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__timeout</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="RequestDriver.post"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.RequestDriver.post">[docs]</a>    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uri</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        data:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">rsp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__postr</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+                           <span class="n">url</span><span class="o">=</span><span class="n">uri</span><span class="p">,</span>
+                           <span class="n">verify</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__validate_certificate</span><span class="p">,</span>
+                           <span class="n">timeout</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__timeout</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rsp</span><span class="o">.</span><span class="n">text</span>
+
+</div></div>
+<div class="viewcode-block" id="UcsConnectionDriver"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UcsConnectionDriver">[docs]</a><span class="k">class</span> <span class="nc">UcsConnectionDriver</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    To Add docstring</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ucs_session</span><span class="p">,</span> <span class="n">use_requests</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__use_requests</span> <span class="o">=</span> <span class="n">use_requests</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__session</span> <span class="o">=</span> <span class="n">ucs_session</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__uri</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">uri</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__secure</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">secure</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">proxy</span>
+
+        <span class="k">if</span> <span class="n">use_requests</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span> <span class="o">=</span> <span class="n">RequestDriver</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span> <span class="o">=</span> <span class="n">UrllibDriver</span><span class="p">(</span><span class="n">secure</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__secure</span><span class="p">,</span>
+                                         <span class="n">proxy</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__proxy</span><span class="p">)</span>
+
+<div class="viewcode-block" id="UcsConnectionDriver.get"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UcsConnectionDriver.get">[docs]</a>    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+</div>
+<div class="viewcode-block" id="UcsConnectionDriver.post_xml"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UcsConnectionDriver.post_xml">[docs]</a>    <span class="k">def</span> <span class="nf">post_xml</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_xml_str</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        To Add docstring</span>
+<span class="sd">        :param in_xml_str:</span>
+<span class="sd">        :param dump_xml:</span>
+<span class="sd">        :return:</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">response_str</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__driver</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__uri</span><span class="p">,</span> <span class="n">in_xml_str</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">response_str</span>
+</div>
+<div class="viewcode-block" id="UcsConnectionDriver.post"><a class="viewcode-back" href="../../ucssdk.html#ucssdk.ucsconnectiondriver.UcsConnectionDriver.post">[docs]</a>    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">element</span><span class="p">,</span> <span class="n">dump_xml</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="kn">import</span> <span class="nn">ucsgenutils</span>
+        <span class="kn">import</span> <span class="nn">ucsxmlcodec</span> <span class="kn">as</span> <span class="nn">xc</span>
+
+        <span class="k">if</span> <span class="n">dump_xml</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">dump_xml</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">dump_xml</span>
+
+        <span class="k">if</span> <span class="n">dump_xml</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">element</span><span class="o">.</span><span class="n">tag</span> <span class="o">==</span> <span class="s">&quot;aaaLogin&quot;</span><span class="p">:</span>
+                <span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">&#39;inName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ucsgenutils</span><span class="o">.</span><span class="n">encrypt_password</span><span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">username</span><span class="p">,</span> <span class="s">&quot;cisco&quot;</span><span class="p">)</span>
+                <span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">&#39;inPassword&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ucsgenutils</span><span class="o">.</span><span class="n">encrypt_password</span><span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">password</span><span class="p">,</span> <span class="s">&quot;cisco&quot;</span><span class="p">)</span>
+                <span class="n">xml_str</span> <span class="o">=</span> <span class="n">xc</span><span class="o">.</span><span class="n">to_xml_str</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+                <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%s</span><span class="s"> ====&gt; </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">ucs</span><span class="p">,</span> <span class="n">xml_str</span><span class="p">))</span>
+                <span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">&#39;inName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">username</span>
+                <span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">&#39;inPassword&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">password</span>
+                <span class="n">xml_str</span> <span class="o">=</span> <span class="n">xc</span><span class="o">.</span><span class="n">to_xml_str</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">xml_str</span> <span class="o">=</span> <span class="n">xc</span><span class="o">.</span><span class="n">to_xml_str</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+                <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%s</span><span class="s"> ====&gt; </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">ucs</span><span class="p">,</span> <span class="n">xml_str</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">xml_str</span> <span class="o">=</span> <span class="n">xc</span><span class="o">.</span><span class="n">to_xml_str</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+
+        <span class="n">response_str</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">post_xml</span><span class="p">(</span><span class="n">xml_str</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">dump_xml</span><span class="p">:</span>
+            <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%s</span><span class="s"> &lt;==== </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__session</span><span class="o">.</span><span class="n">ucs</span><span class="p">,</span> <span class="n">response_str</span><span class="p">))</span>
+
+        <span class="n">response</span> <span class="o">=</span> <span class="n">xc</span><span class="o">.</span><span class="n">from_xml_str</span><span class="p">(</span><span class="n">response_str</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">response</span>
+        <span class="k">return</span> <span class="bp">None</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

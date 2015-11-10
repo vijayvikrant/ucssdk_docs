@@ -1,0 +1,87 @@
+ident Package
+=============
+
+:mod:`IdentIdentCtx` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentIdentCtx
+    :members:
+    :show-inheritance:
+
+:mod:`IdentIdentRequest` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentIdentRequest
+    :members:
+    :show-inheritance:
+
+:mod:`IdentIdentRequestFsm` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentIdentRequestFsm
+    :members:
+    :show-inheritance:
+
+:mod:`IdentIdentRequestFsmStage` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentIdentRequestFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`IdentIdentRequestFsmTask` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentIdentRequestFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`IdentMetaSystem` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentMetaSystem
+    :members:
+    :show-inheritance:
+
+:mod:`IdentMetaSystemFsm` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentMetaSystemFsm
+    :members:
+    :show-inheritance:
+
+:mod:`IdentMetaSystemFsmStage` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentMetaSystemFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`IdentMetaSystemFsmTask` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentMetaSystemFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`IdentMetaVerse` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentMetaVerse
+    :members:
+    :show-inheritance:
+
+:mod:`IdentRequestEp` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentRequestEp
+    :members:
+    :show-inheritance:
+
+:mod:`IdentSysInfo` Module
+--------------------------
+
+.. automodule:: ucssdk.mometa.ident.IdentSysInfo
+    :members:
+    :show-inheritance:
+

@@ -1,0 +1,817 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>lstorage Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="macpool Package" href="ucssdk.mometa.macpool.html"/>
+        <link rel="prev" title="lsmaint Package" href="ucssdk.mometa.lsmaint.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>lstorage Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.lstorage.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lstorage-package">
+<h1>lstorage Package<a class="headerlink" href="#lstorage-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageAbsWindow">
+<span id="lstorageabswindow-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageAbsWindow</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageAbsWindow" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageAbsWindow ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageAbsWindow.LstorageAbsWindow">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageAbsWindow.</code><code class="descname">LstorageAbsWindow</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageAbsWindow.html#LstorageAbsWindow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageAbsWindow.LstorageAbsWindow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageAbsWindow class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageAck">
+<span id="lstorageack-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageAck</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageAck" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageAck ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageAck.LstorageAck">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageAck.</code><code class="descname">LstorageAck</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageAck.html#LstorageAck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageAck.LstorageAck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageAck class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageArray">
+<span id="lstoragearray-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageArray</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageArray" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageArray ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageArray.LstorageArray">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageArray.</code><code class="descname">LstorageArray</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageArray.html#LstorageArray"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageArray.LstorageArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageArray class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageArrayAutoconfigPolicy">
+<span id="lstoragearrayautoconfigpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageArrayAutoconfigPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageArrayAutoconfigPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageArrayAutoconfigPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageArrayAutoconfigPolicy.LstorageArrayAutoconfigPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageArrayAutoconfigPolicy.</code><code class="descname">LstorageArrayAutoconfigPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageArrayAutoconfigPolicy.html#LstorageArrayAutoconfigPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageArrayAutoconfigPolicy.LstorageArrayAutoconfigPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageArrayAutoconfigPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageArrayBinding">
+<span id="lstoragearraybinding-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageArrayBinding</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageArrayBinding" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageArrayBinding ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageArrayBinding.LstorageArrayBinding">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageArrayBinding.</code><code class="descname">LstorageArrayBinding</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageArrayBinding.html#LstorageArrayBinding"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageArrayBinding.LstorageArrayBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageArrayBinding class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageArrayQual">
+<span id="lstoragearrayqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageArrayQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageArrayQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageArrayQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageArrayQual.LstorageArrayQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageArrayQual.</code><code class="descname">LstorageArrayQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageArrayQual.html#LstorageArrayQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageArrayQual.LstorageArrayQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageArrayQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstoreBinding">
+<span id="lstoragebackstorebinding-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstoreBinding</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstoreBinding" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstoreBinding ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstoreBinding.LstorageBackstoreBinding">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstoreBinding.</code><code class="descname">LstorageBackstoreBinding</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstoreBinding.html#LstorageBackstoreBinding"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstoreBinding.LstorageBackstoreBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstoreBinding class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstorePool">
+<span id="lstoragebackstorepool-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstorePool</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstorePool" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstorePool ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstorePool.LstorageBackstorePool">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstorePool.</code><code class="descname">LstorageBackstorePool</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstorePool.html#LstorageBackstorePool"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstorePool.LstorageBackstorePool" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstorePool class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstorePoolPolicyRef">
+<span id="lstoragebackstorepoolpolicyref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstorePoolPolicyRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstorePoolPolicyRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstorePoolPolicyRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstorePoolPolicyRef.LstorageBackstorePoolPolicyRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstorePoolPolicyRef.</code><code class="descname">LstorageBackstorePoolPolicyRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstorePoolPolicyRef.html#LstorageBackstorePoolPolicyRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstorePoolPolicyRef.LstorageBackstorePoolPolicyRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstorePoolPolicyRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstorePoolingPolicy">
+<span id="lstoragebackstorepoolingpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstorePoolingPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstorePoolingPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstorePoolingPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstorePoolingPolicy.LstorageBackstorePoolingPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstorePoolingPolicy.</code><code class="descname">LstorageBackstorePoolingPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstorePoolingPolicy.html#LstorageBackstorePoolingPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstorePoolingPolicy.LstorageBackstorePoolingPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstorePoolingPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstoreQual">
+<span id="lstoragebackstorequal-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstoreQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstoreQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstoreQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstoreQual.LstorageBackstoreQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstoreQual.</code><code class="descname">LstorageBackstoreQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstoreQual.html#LstorageBackstoreQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstoreQual.LstorageBackstoreQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstoreQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageBackstoreRequirement">
+<span id="lstoragebackstorerequirement-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageBackstoreRequirement</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageBackstoreRequirement" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageBackstoreRequirement ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageBackstoreRequirement.LstorageBackstoreRequirement">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageBackstoreRequirement.</code><code class="descname">LstorageBackstoreRequirement</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageBackstoreRequirement.html#LstorageBackstoreRequirement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageBackstoreRequirement.LstorageBackstoreRequirement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageBackstoreRequirement class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageControllerDef">
+<span id="lstoragecontrollerdef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageControllerDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageControllerDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageControllerDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageControllerDef.LstorageControllerDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageControllerDef.</code><code class="descname">LstorageControllerDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageControllerDef.html#LstorageControllerDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageControllerDef.LstorageControllerDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageControllerDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageControllerModeConfig">
+<span id="lstoragecontrollermodeconfig-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageControllerModeConfig</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageControllerModeConfig" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageControllerModeConfig ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageControllerModeConfig.LstorageControllerModeConfig">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageControllerModeConfig.</code><code class="descname">LstorageControllerModeConfig</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageControllerModeConfig.html#LstorageControllerModeConfig"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageControllerModeConfig.LstorageControllerModeConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageControllerModeConfig class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageControllerQualifier">
+<span id="lstoragecontrollerqualifier-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageControllerQualifier</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageControllerQualifier" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageControllerQualifier ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageControllerQualifier.LstorageControllerQualifier">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageControllerQualifier.</code><code class="descname">LstorageControllerQualifier</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageControllerQualifier.html#LstorageControllerQualifier"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageControllerQualifier.LstorageControllerQualifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageControllerQualifier class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageCtrlService">
+<span id="lstoragectrlservice-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageCtrlService</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageCtrlService" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageCtrlService ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageCtrlService.LstorageCtrlService">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageCtrlService.</code><code class="descname">LstorageCtrlService</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageCtrlService.html#LstorageCtrlService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageCtrlService.LstorageCtrlService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageCtrlService class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageDasScsiLun">
+<span id="lstoragedasscsilun-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageDasScsiLun</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageDasScsiLun" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageDasScsiLun ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageDasScsiLun.LstorageDasScsiLun">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageDasScsiLun.</code><code class="descname">LstorageDasScsiLun</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageDasScsiLun.html#LstorageDasScsiLun"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageDasScsiLun.LstorageDasScsiLun" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageDasScsiLun class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageDiskGroupConfigDef">
+<span id="lstoragediskgroupconfigdef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageDiskGroupConfigDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageDiskGroupConfigDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageDiskGroupConfigDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageDiskGroupConfigDef.LstorageDiskGroupConfigDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageDiskGroupConfigDef.</code><code class="descname">LstorageDiskGroupConfigDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageDiskGroupConfigDef.html#LstorageDiskGroupConfigDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageDiskGroupConfigDef.LstorageDiskGroupConfigDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageDiskGroupConfigDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageDiskGroupConfigPolicy">
+<span id="lstoragediskgroupconfigpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageDiskGroupConfigPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageDiskGroupConfigPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageDiskGroupConfigPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageDiskGroupConfigPolicy.LstorageDiskGroupConfigPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageDiskGroupConfigPolicy.</code><code class="descname">LstorageDiskGroupConfigPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageDiskGroupConfigPolicy.html#LstorageDiskGroupConfigPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageDiskGroupConfigPolicy.LstorageDiskGroupConfigPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageDiskGroupConfigPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageDiskGroupQualifier">
+<span id="lstoragediskgroupqualifier-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageDiskGroupQualifier</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageDiskGroupQualifier" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageDiskGroupQualifier ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageDiskGroupQualifier.LstorageDiskGroupQualifier">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageDiskGroupQualifier.</code><code class="descname">LstorageDiskGroupQualifier</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageDiskGroupQualifier.html#LstorageDiskGroupQualifier"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageDiskGroupQualifier.LstorageDiskGroupQualifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageDiskGroupQualifier class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageExtension">
+<span id="lstorageextension-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageExtension</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageExtension" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageExtension ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageExtension.LstorageExtension">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageExtension.</code><code class="descname">LstorageExtension</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageExtension.html#LstorageExtension"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageExtension.LstorageExtension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageExtension class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageInvictaReplicationExt">
+<span id="lstorageinvictareplicationext-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageInvictaReplicationExt</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageInvictaReplicationExt" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageInvictaReplicationExt ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageInvictaReplicationExt.LstorageInvictaReplicationExt">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageInvictaReplicationExt.</code><code class="descname">LstorageInvictaReplicationExt</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageInvictaReplicationExt.html#LstorageInvictaReplicationExt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageInvictaReplicationExt.LstorageInvictaReplicationExt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageInvictaReplicationExt class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageIssues">
+<span id="lstorageissues-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageIssues</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageIssues" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageIssues ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageIssues.LstorageIssues">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageIssues.</code><code class="descname">LstorageIssues</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageIssues.html#LstorageIssues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageIssues.LstorageIssues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageIssues class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLocalDiskConfigRef">
+<span id="lstoragelocaldiskconfigref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLocalDiskConfigRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLocalDiskConfigRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLocalDiskConfigRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLocalDiskConfigRef.LstorageLocalDiskConfigRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLocalDiskConfigRef.</code><code class="descname">LstorageLocalDiskConfigRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>slot_num</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLocalDiskConfigRef.html#LstorageLocalDiskConfigRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLocalDiskConfigRef.LstorageLocalDiskConfigRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLocalDiskConfigRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLocalDiskRef">
+<span id="lstoragelocaldiskref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLocalDiskRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLocalDiskRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLocalDiskRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLocalDiskRef.LstorageLocalDiskRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLocalDiskRef.</code><code class="descname">LstorageLocalDiskRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>enclosure_id</em>, <em>slot_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLocalDiskRef.html#LstorageLocalDiskRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLocalDiskRef.LstorageLocalDiskRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLocalDiskRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunClone">
+<span id="lstoragelunclone-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunClone</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunClone" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunClone ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunClone.LstorageLunClone">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunClone.</code><code class="descname">LstorageLunClone</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunClone.html#LstorageLunClone"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunClone.LstorageLunClone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunClone class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunReplicationPeerEp">
+<span id="lstoragelunreplicationpeerep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunReplicationPeerEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunReplicationPeerEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunReplicationPeerEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunReplicationPeerEp.LstorageLunReplicationPeerEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunReplicationPeerEp.</code><code class="descname">LstorageLunReplicationPeerEp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunReplicationPeerEp.html#LstorageLunReplicationPeerEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunReplicationPeerEp.LstorageLunReplicationPeerEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunReplicationPeerEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunReplicationPolicy">
+<span id="lstoragelunreplicationpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunReplicationPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunReplicationPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunReplicationPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunReplicationPolicy.LstorageLunReplicationPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunReplicationPolicy.</code><code class="descname">LstorageLunReplicationPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunReplicationPolicy.html#LstorageLunReplicationPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunReplicationPolicy.LstorageLunReplicationPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunReplicationPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunReplicationService">
+<span id="lstoragelunreplicationservice-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunReplicationService</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunReplicationService" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunReplicationService ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunReplicationService.LstorageLunReplicationService">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunReplicationService.</code><code class="descname">LstorageLunReplicationService</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunReplicationService.html#LstorageLunReplicationService"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunReplicationService.LstorageLunReplicationService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunReplicationService class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunReplicationTask">
+<span id="lstoragelunreplicationtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunReplicationTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunReplicationTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunReplicationTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunReplicationTask.LstorageLunReplicationTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunReplicationTask.</code><code class="descname">LstorageLunReplicationTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunReplicationTask.html#LstorageLunReplicationTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunReplicationTask.LstorageLunReplicationTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunReplicationTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageLunSnapshotPolicy">
+<span id="lstoragelunsnapshotpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageLunSnapshotPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageLunSnapshotPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageLunSnapshotPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageLunSnapshotPolicy.LstorageLunSnapshotPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageLunSnapshotPolicy.</code><code class="descname">LstorageLunSnapshotPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageLunSnapshotPolicy.html#LstorageLunSnapshotPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageLunSnapshotPolicy.LstorageLunSnapshotPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageLunSnapshotPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageMaintPolicy">
+<span id="lstoragemaintpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageMaintPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageMaintPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageMaintPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageMaintPolicy.LstorageMaintPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageMaintPolicy.</code><code class="descname">LstorageMaintPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageMaintPolicy.html#LstorageMaintPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageMaintPolicy.LstorageMaintPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageMaintPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstoragePoolableBackstore">
+<span id="lstoragepoolablebackstore-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstoragePoolableBackstore</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstoragePoolableBackstore" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstoragePoolableBackstore ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstoragePoolableBackstore.LstoragePoolableBackstore">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstoragePoolableBackstore.</code><code class="descname">LstoragePoolableBackstore</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstoragePoolableBackstore.html#LstoragePoolableBackstore"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstoragePoolableBackstore.LstoragePoolableBackstore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstoragePoolableBackstore class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstoragePooledArrayVolume">
+<span id="lstoragepooledarrayvolume-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstoragePooledArrayVolume</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstoragePooledArrayVolume" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstoragePooledArrayVolume ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstoragePooledArrayVolume.LstoragePooledArrayVolume">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstoragePooledArrayVolume.</code><code class="descname">LstoragePooledArrayVolume</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>array_name</em>, <em>partition_name</em>, <em>volume_name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstoragePooledArrayVolume.html#LstoragePooledArrayVolume"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstoragePooledArrayVolume.LstoragePooledArrayVolume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstoragePooledArrayVolume class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProcessor">
+<span id="lstorageprocessor-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProcessor</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProcessor" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProcessor ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProcessor.LstorageProcessor">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProcessor.</code><code class="descname">LstorageProcessor</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProcessor.html#LstorageProcessor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProcessor.LstorageProcessor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProcessor class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProcessorBinding">
+<span id="lstorageprocessorbinding-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProcessorBinding</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProcessorBinding" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProcessorBinding ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProcessorBinding.LstorageProcessorBinding">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProcessorBinding.</code><code class="descname">LstorageProcessorBinding</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProcessorBinding.html#LstorageProcessorBinding"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProcessorBinding.LstorageProcessorBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProcessorBinding class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProcessorFsm">
+<span id="lstorageprocessorfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProcessorFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProcessorFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProcessorFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProcessorFsm.LstorageProcessorFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProcessorFsm.</code><code class="descname">LstorageProcessorFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProcessorFsm.html#LstorageProcessorFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProcessorFsm.LstorageProcessorFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProcessorFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProcessorFsmStage">
+<span id="lstorageprocessorfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProcessorFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProcessorFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProcessorFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProcessorFsmStage.LstorageProcessorFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProcessorFsmStage.</code><code class="descname">LstorageProcessorFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProcessorFsmStage.html#LstorageProcessorFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProcessorFsmStage.LstorageProcessorFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProcessorFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProcessorFsmTask">
+<span id="lstorageprocessorfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProcessorFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProcessorFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProcessorFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProcessorFsmTask.LstorageProcessorFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProcessorFsmTask.</code><code class="descname">LstorageProcessorFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProcessorFsmTask.html#LstorageProcessorFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProcessorFsmTask.LstorageProcessorFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProcessorFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProfile">
+<span id="lstorageprofile-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProfile</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProfile" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProfile ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProfile.LstorageProfile">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProfile.</code><code class="descname">LstorageProfile</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProfile.html#LstorageProfile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProfile.LstorageProfile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProfile class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProfileBinding">
+<span id="lstorageprofilebinding-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProfileBinding</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProfileBinding" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProfileBinding ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProfileBinding.LstorageProfileBinding">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProfileBinding.</code><code class="descname">LstorageProfileBinding</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProfileBinding.html#LstorageProfileBinding"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProfileBinding.LstorageProfileBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProfileBinding class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageProfileDef">
+<span id="lstorageprofiledef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageProfileDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageProfileDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageProfileDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageProfileDef.LstorageProfileDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageProfileDef.</code><code class="descname">LstorageProfileDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageProfileDef.html#LstorageProfileDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageProfileDef.LstorageProfileDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageProfileDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageRecurrWindow">
+<span id="lstoragerecurrwindow-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageRecurrWindow</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageRecurrWindow" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageRecurrWindow ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageRecurrWindow.LstorageRecurrWindow">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageRecurrWindow.</code><code class="descname">LstorageRecurrWindow</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageRecurrWindow.html#LstorageRecurrWindow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageRecurrWindow.LstorageRecurrWindow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageRecurrWindow class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageReplicationConnect">
+<span id="lstoragereplicationconnect-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageReplicationConnect</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageReplicationConnect" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageReplicationConnect ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageReplicationConnect.LstorageReplicationConnect">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageReplicationConnect.</code><code class="descname">LstorageReplicationConnect</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>hostname</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageReplicationConnect.html#LstorageReplicationConnect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageReplicationConnect.LstorageReplicationConnect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageReplicationConnect class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageReplicationSourceEp">
+<span id="lstoragereplicationsourceep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageReplicationSourceEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageReplicationSourceEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageReplicationSourceEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageReplicationSourceEp.LstorageReplicationSourceEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageReplicationSourceEp.</code><code class="descname">LstorageReplicationSourceEp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>serial_number</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageReplicationSourceEp.html#LstorageReplicationSourceEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageReplicationSourceEp.LstorageReplicationSourceEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageReplicationSourceEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageReplicationSources">
+<span id="lstoragereplicationsources-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageReplicationSources</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageReplicationSources" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageReplicationSources ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageReplicationSources.LstorageReplicationSources">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageReplicationSources.</code><code class="descname">LstorageReplicationSources</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageReplicationSources.html#LstorageReplicationSources"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageReplicationSources.LstorageReplicationSources" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageReplicationSources class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageRequestCtx">
+<span id="lstoragerequestctx-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageRequestCtx</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageRequestCtx" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageRequestCtx ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageRequestCtx.LstorageRequestCtx">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageRequestCtx.</code><code class="descname">LstorageRequestCtx</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageRequestCtx.html#LstorageRequestCtx"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageRequestCtx.LstorageRequestCtx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageRequestCtx class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageSanScsiLun">
+<span id="lstoragesanscsilun-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageSanScsiLun</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageSanScsiLun" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageSanScsiLun ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageSanScsiLun.LstorageSanScsiLun">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageSanScsiLun.</code><code class="descname">LstorageSanScsiLun</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageSanScsiLun.html#LstorageSanScsiLun"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageSanScsiLun.LstorageSanScsiLun" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageSanScsiLun class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageSharedCredential">
+<span id="lstoragesharedcredential-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageSharedCredential</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageSharedCredential" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageSharedCredential ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageSharedCredential.LstorageSharedCredential">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageSharedCredential.</code><code class="descname">LstorageSharedCredential</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageSharedCredential.html#LstorageSharedCredential"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageSharedCredential.LstorageSharedCredential" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageSharedCredential class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageSvcSched">
+<span id="lstoragesvcsched-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageSvcSched</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageSvcSched" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageSvcSched ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageSvcSched.LstorageSvcSched">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageSvcSched.</code><code class="descname">LstorageSvcSched</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageSvcSched.html#LstorageSvcSched"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageSvcSched.LstorageSvcSched" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageSvcSched class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageTargetIdentity">
+<span id="lstoragetargetidentity-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageTargetIdentity</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageTargetIdentity" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageTargetIdentity ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageTargetIdentity.LstorageTargetIdentity">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageTargetIdentity.</code><code class="descname">LstorageTargetIdentity</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageTargetIdentity.html#LstorageTargetIdentity"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageTargetIdentity.LstorageTargetIdentity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageTargetIdentity class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.lstorage.LstorageVirtualDriveDef">
+<span id="lstoragevirtualdrivedef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LstorageVirtualDriveDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.lstorage.LstorageVirtualDriveDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LstorageVirtualDriveDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.lstorage.LstorageVirtualDriveDef.LstorageVirtualDriveDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.lstorage.LstorageVirtualDriveDef.</code><code class="descname">LstorageVirtualDriveDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/lstorage/LstorageVirtualDriveDef.html#LstorageVirtualDriveDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.lstorage.LstorageVirtualDriveDef.LstorageVirtualDriveDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LstorageVirtualDriveDef class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.macpool.html" class="btn btn-neutral float-right" title="macpool Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.lsmaint.html" class="btn btn-neutral" title="lsmaint Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

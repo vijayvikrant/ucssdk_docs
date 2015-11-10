@@ -1,0 +1,7 @@
+========
+Usage
+========
+
+To use ucssdk in a project::
+
+    import ucssdk

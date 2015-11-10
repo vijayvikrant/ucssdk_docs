@@ -1,0 +1,487 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>license Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="lldp Package" href="ucssdk.mometa.lldp.html"/>
+        <link rel="prev" title="iscsi Package" href="ucssdk.mometa.iscsi.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>license Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.license.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="license-package">
+<h1>license Package<a class="headerlink" href="#license-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.license.LicenseContents">
+<span id="licensecontents-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseContents</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseContents" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseContents ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseContents.LicenseContents">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseContents.</code><code class="descname">LicenseContents</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>feature_name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseContents.html#LicenseContents"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseContents.LicenseContents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseContents class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseDownloader">
+<span id="licensedownloader-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseDownloader</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseDownloader" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseDownloader ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseDownloader.LicenseDownloader">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseDownloader.</code><code class="descname">LicenseDownloader</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>file_name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseDownloader.html#LicenseDownloader"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseDownloader.LicenseDownloader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseDownloader class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseDownloaderFsm">
+<span id="licensedownloaderfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseDownloaderFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseDownloaderFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseDownloaderFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseDownloaderFsm.LicenseDownloaderFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseDownloaderFsm.</code><code class="descname">LicenseDownloaderFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseDownloaderFsm.html#LicenseDownloaderFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseDownloaderFsm.LicenseDownloaderFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseDownloaderFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseDownloaderFsmStage">
+<span id="licensedownloaderfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseDownloaderFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseDownloaderFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseDownloaderFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseDownloaderFsmStage.LicenseDownloaderFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseDownloaderFsmStage.</code><code class="descname">LicenseDownloaderFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseDownloaderFsmStage.html#LicenseDownloaderFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseDownloaderFsmStage.LicenseDownloaderFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseDownloaderFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseDownloaderFsmTask">
+<span id="licensedownloaderfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseDownloaderFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseDownloaderFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseDownloaderFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseDownloaderFsmTask.LicenseDownloaderFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseDownloaderFsmTask.</code><code class="descname">LicenseDownloaderFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseDownloaderFsmTask.html#LicenseDownloaderFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseDownloaderFsmTask.LicenseDownloaderFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseDownloaderFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseEp">
+<span id="licenseep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseEp.LicenseEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseEp.</code><code class="descname">LicenseEp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseEp.html#LicenseEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseEp.LicenseEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFeature">
+<span id="licensefeature-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFeature</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFeature" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFeature ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFeature.LicenseFeature">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFeature.</code><code class="descname">LicenseFeature</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>vendor</em>, <em>version</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFeature.html#LicenseFeature"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFeature.LicenseFeature" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFeature class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFeatureCapProvider">
+<span id="licensefeaturecapprovider-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFeatureCapProvider</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFeatureCapProvider" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFeatureCapProvider ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFeatureCapProvider.LicenseFeatureCapProvider">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFeatureCapProvider.</code><code class="descname">LicenseFeatureCapProvider</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>feature_name</em>, <em>lic_vendor</em>, <em>lic_version</em>, <em>vendor</em>, <em>model</em>, <em>revision</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFeatureCapProvider.html#LicenseFeatureCapProvider"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFeatureCapProvider.LicenseFeatureCapProvider" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFeatureCapProvider class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFeatureLine">
+<span id="licensefeatureline-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFeatureLine</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFeatureLine" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFeatureLine ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFeatureLine.LicenseFeatureLine">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFeatureLine.</code><code class="descname">LicenseFeatureLine</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>type</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFeatureLine.html#LicenseFeatureLine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFeatureLine.LicenseFeatureLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFeatureLine class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFile">
+<span id="licensefile-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFile</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFile" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFile ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFile.LicenseFile">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFile.</code><code class="descname">LicenseFile</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>scope</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFile.html#LicenseFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFile.LicenseFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFile class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFileFsm">
+<span id="licensefilefsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFileFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFileFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFileFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFileFsm.LicenseFileFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFileFsm.</code><code class="descname">LicenseFileFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFileFsm.html#LicenseFileFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFileFsm.LicenseFileFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFileFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFileFsmStage">
+<span id="licensefilefsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFileFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFileFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFileFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFileFsmStage.LicenseFileFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFileFsmStage.</code><code class="descname">LicenseFileFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFileFsmStage.html#LicenseFileFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFileFsmStage.LicenseFileFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFileFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseFileFsmTask">
+<span id="licensefilefsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseFileFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseFileFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseFileFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseFileFsmTask.LicenseFileFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseFileFsmTask.</code><code class="descname">LicenseFileFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseFileFsmTask.html#LicenseFileFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseFileFsmTask.LicenseFileFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseFileFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseInstance">
+<span id="licenseinstance-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseInstance</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseInstance" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseInstance ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseInstance.LicenseInstance">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseInstance.</code><code class="descname">LicenseInstance</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>scope</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseInstance.html#LicenseInstance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseInstance.LicenseInstance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseInstance class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseInstanceFsm">
+<span id="licenseinstancefsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseInstanceFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseInstanceFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseInstanceFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseInstanceFsm.LicenseInstanceFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseInstanceFsm.</code><code class="descname">LicenseInstanceFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseInstanceFsm.html#LicenseInstanceFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseInstanceFsm.LicenseInstanceFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseInstanceFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseInstanceFsmStage">
+<span id="licenseinstancefsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseInstanceFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseInstanceFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseInstanceFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseInstanceFsmStage.LicenseInstanceFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseInstanceFsmStage.</code><code class="descname">LicenseInstanceFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseInstanceFsmStage.html#LicenseInstanceFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseInstanceFsmStage.LicenseInstanceFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseInstanceFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseInstanceFsmTask">
+<span id="licenseinstancefsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseInstanceFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseInstanceFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseInstanceFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseInstanceFsmTask.LicenseInstanceFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseInstanceFsmTask.</code><code class="descname">LicenseInstanceFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseInstanceFsmTask.html#LicenseInstanceFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseInstanceFsmTask.LicenseInstanceFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseInstanceFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseProp">
+<span id="licenseprop-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseProp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseProp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseProp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseProp.LicenseProp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseProp.</code><code class="descname">LicenseProp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseProp.html#LicenseProp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseProp.LicenseProp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseProp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseServerHostId">
+<span id="licenseserverhostid-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseServerHostId</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseServerHostId" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseServerHostId ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseServerHostId.LicenseServerHostId">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseServerHostId.</code><code class="descname">LicenseServerHostId</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>scope</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseServerHostId.html#LicenseServerHostId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseServerHostId.LicenseServerHostId" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseServerHostId class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseSource">
+<span id="licensesource-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseSource</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseSource" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseSource ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseSource.LicenseSource">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseSource.</code><code class="descname">LicenseSource</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseSource.html#LicenseSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseSource.LicenseSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseSource class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseSourceFile">
+<span id="licensesourcefile-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseSourceFile</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseSourceFile" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseSourceFile ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseSourceFile.LicenseSourceFile">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseSourceFile.</code><code class="descname">LicenseSourceFile</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>line</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseSourceFile.html#LicenseSourceFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseSourceFile.LicenseSourceFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseSourceFile class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.license.LicenseTarget">
+<span id="licensetarget-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">LicenseTarget</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.license.LicenseTarget" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for LicenseTarget ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.license.LicenseTarget.LicenseTarget">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.license.LicenseTarget.</code><code class="descname">LicenseTarget</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>slot_id</em>, <em>port_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/license/LicenseTarget.html#LicenseTarget"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.license.LicenseTarget.LicenseTarget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is LicenseTarget class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.lldp.html" class="btn btn-neutral float-right" title="lldp Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.iscsi.html" class="btn btn-neutral" title="iscsi Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

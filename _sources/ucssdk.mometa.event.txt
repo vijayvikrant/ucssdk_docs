@@ -1,0 +1,45 @@
+event Package
+=============
+
+:mod:`EventEpCtrl` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.event.EventEpCtrl
+    :members:
+    :show-inheritance:
+
+:mod:`EventHolder` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.event.EventHolder
+    :members:
+    :show-inheritance:
+
+:mod:`EventInst` Module
+-----------------------
+
+.. automodule:: ucssdk.mometa.event.EventInst
+    :members:
+    :show-inheritance:
+
+:mod:`EventLog` Module
+----------------------
+
+.. automodule:: ucssdk.mometa.event.EventLog
+    :members:
+    :show-inheritance:
+
+:mod:`EventPolicy` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.event.EventPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`EventRecord` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.event.EventRecord
+    :members:
+    :show-inheritance:
+

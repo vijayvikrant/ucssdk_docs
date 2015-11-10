@@ -1,0 +1,94 @@
+stats Package
+=============
+
+:mod:`StatsCollectionPolicy` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsCollectionPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`StatsCollectionPolicyFsm` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsCollectionPolicyFsm
+    :members:
+    :show-inheritance:
+
+:mod:`StatsCollectionPolicyFsmStage` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsCollectionPolicyFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`StatsCollectionPolicyFsmTask` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsCollectionPolicyFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`StatsHolder` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsHolder
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThr32Definition` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThr32Definition
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThr32Value` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThr32Value
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThr64Definition` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThr64Definition
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThr64Value` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThr64Value
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThrFloatDefinition` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThrFloatDefinition
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThrFloatValue` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThrFloatValue
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThresholdClass` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThresholdClass
+    :members:
+    :show-inheritance:
+
+:mod:`StatsThresholdPolicy` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.stats.StatsThresholdPolicy
+    :members:
+    :show-inheritance:
+

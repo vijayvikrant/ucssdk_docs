@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>network Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="nfs Package" href="ucssdk.mometa.nfs.html"/>
+        <link rel="prev" title="mgmt Package" href="ucssdk.mometa.mgmt.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>network Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.network.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="network-package">
+<h1>network Package<a class="headerlink" href="#network-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.network.NetworkElement">
+<span id="networkelement-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkElement</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkElement" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkElement ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkElement.NetworkElement">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkElement.</code><code class="descname">NetworkElement</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkElement.html#NetworkElement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkElement.NetworkElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkElement class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkIfStats">
+<span id="networkifstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkIfStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkIfStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkIfStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkIfStats.NetworkIfStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkIfStats.</code><code class="descname">NetworkIfStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>type</em>, <em>units</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkIfStats.html#NetworkIfStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkIfStats.NetworkIfStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkIfStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkLanNeighborEntry">
+<span id="networklanneighborentry-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkLanNeighborEntry</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkLanNeighborEntry" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkLanNeighborEntry ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkLanNeighborEntry.NetworkLanNeighborEntry">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkLanNeighborEntry.</code><code class="descname">NetworkLanNeighborEntry</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>local_interface</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkLanNeighborEntry.html#NetworkLanNeighborEntry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkLanNeighborEntry.NetworkLanNeighborEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkLanNeighborEntry class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkLanNeighbors">
+<span id="networklanneighbors-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkLanNeighbors</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkLanNeighbors" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkLanNeighbors ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkLanNeighbors.NetworkLanNeighbors">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkLanNeighbors.</code><code class="descname">NetworkLanNeighbors</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkLanNeighbors.html#NetworkLanNeighbors"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkLanNeighbors.NetworkLanNeighbors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkLanNeighbors class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkLldpNeighborEntry">
+<span id="networklldpneighborentry-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkLldpNeighborEntry</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkLldpNeighborEntry" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkLldpNeighborEntry ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkLldpNeighborEntry.NetworkLldpNeighborEntry">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkLldpNeighborEntry.</code><code class="descname">NetworkLldpNeighborEntry</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>local_interface</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkLldpNeighborEntry.html#NetworkLldpNeighborEntry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkLldpNeighborEntry.NetworkLldpNeighborEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkLldpNeighborEntry class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkLldpNeighbors">
+<span id="networklldpneighbors-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkLldpNeighbors</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkLldpNeighbors" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkLldpNeighbors ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkLldpNeighbors.NetworkLldpNeighbors">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkLldpNeighbors.</code><code class="descname">NetworkLldpNeighbors</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkLldpNeighbors.html#NetworkLldpNeighbors"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkLldpNeighbors.NetworkLldpNeighbors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkLldpNeighbors class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkOperLevel">
+<span id="networkoperlevel-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkOperLevel</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkOperLevel" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkOperLevel ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkOperLevel.NetworkOperLevel">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkOperLevel.</code><code class="descname">NetworkOperLevel</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkOperLevel.html#NetworkOperLevel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkOperLevel.NetworkOperLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkOperLevel class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkSanNeighborEntry">
+<span id="networksanneighborentry-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkSanNeighborEntry</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkSanNeighborEntry" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkSanNeighborEntry ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkSanNeighborEntry.NetworkSanNeighborEntry">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkSanNeighborEntry.</code><code class="descname">NetworkSanNeighborEntry</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>local_interface</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkSanNeighborEntry.html#NetworkSanNeighborEntry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkSanNeighborEntry.NetworkSanNeighborEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkSanNeighborEntry class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.network.NetworkSanNeighbors">
+<span id="networksanneighbors-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">NetworkSanNeighbors</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.network.NetworkSanNeighbors" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for NetworkSanNeighbors ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.network.NetworkSanNeighbors.NetworkSanNeighbors">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.network.NetworkSanNeighbors.</code><code class="descname">NetworkSanNeighbors</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/network/NetworkSanNeighbors.html#NetworkSanNeighbors"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.network.NetworkSanNeighbors.NetworkSanNeighbors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is NetworkSanNeighbors class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.nfs.html" class="btn btn-neutral float-right" title="nfs Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.mgmt.html" class="btn btn-neutral" title="mgmt Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

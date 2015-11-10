@@ -1,0 +1,626 @@
+bios Package
+============
+
+:mod:`BiosBOT` Module
+---------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosBOT
+    :members:
+    :show-inheritance:
+
+:mod:`BiosBootDev` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosBootDev
+    :members:
+    :show-inheritance:
+
+:mod:`BiosBootDevGrp` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosBootDevGrp
+    :members:
+    :show-inheritance:
+
+:mod:`BiosFeatureRef` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosFeatureRef
+    :members:
+    :show-inheritance:
+
+:mod:`BiosParameterRef` Module
+------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosParameterRef
+    :members:
+    :show-inheritance:
+
+:mod:`BiosRef` Module
+---------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosRef
+    :members:
+    :show-inheritance:
+
+:mod:`BiosSettingRef` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosSettingRef
+    :members:
+    :show-inheritance:
+
+:mod:`BiosSettings` Module
+--------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosSettings
+    :members:
+    :show-inheritance:
+
+:mod:`BiosUnit` Module
+----------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosUnit
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVIdentityParams` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVIdentityParams
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVProfile` Module
+--------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVProfile
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfACPI10Support` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfACPI10Support
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfASPMSupport` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfASPMSupport
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfAllUSBDevices` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfAllUSBDevices
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfAltitude` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfAltitude
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfAssertNMIOnPERR` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfAssertNMIOnPERR
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfAssertNMIOnSERR` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfAssertNMIOnSERR
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfBootOptionRetry` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfBootOptionRetry
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfCPUPerformance` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfCPUPerformance
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfCPUPowerManagement` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfCPUPowerManagement
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfConsistentDeviceNameControl` Module
+-----------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfConsoleRedirection` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfConsoleRedirection
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfCoreMultiProcessing` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfCoreMultiProcessing
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfDDR3VoltageSelection` Module
+----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfDDR3VoltageSelection
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfDRAMClockThrottling` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfDRAMClockThrottling
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfDirectCacheAccess` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfDirectCacheAccess
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfDramRefreshRate` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfDramRefreshRate
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfEnhancedIntelSpeedStepTech` Module
+----------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfEnhancedPowerCappingSupport` Module
+-----------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfExecuteDisableBit` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfExecuteDisableBit
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfFRB2Timer` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfFRB2Timer
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfFrequencyFloorOverride` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfFrequencyFloorOverride
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfFrontPanelLockout` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfFrontPanelLockout
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelEntrySASRAIDModule` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelHyperThreadingTech` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelTrustedExecutionTechnology` Module
+---------------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelTurboBoostTech` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelTurboBoostTech
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelVTForDirectedIO` Module
+----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfIntelVirtualizationTechnology` Module
+-------------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfInterleaveConfiguration` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfInterleaveConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfLocalX2Apic` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfLocalX2Apic
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfLvDIMMSupport` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfLvDIMMSupport
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfMaxVariableMTRRSetting` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfMaximumMemoryBelow4GB` Module
+-----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfMemoryMappedIOAbove4GB` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfMirroringMode` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfMirroringMode
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfNUMAOptimized` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfNUMAOptimized
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOSBootWatchdogTimer` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOSBootWatchdogTimerPolicy` Module
+---------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOSBootWatchdogTimerTimeout` Module
+----------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOnboardSATAController` Module
+-----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOnboardSATAController
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOnboardStorage` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOnboardStorage
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOptionROMEnable` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOptionROMEnable
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfOptionROMLoad` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfOptionROMLoad
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPCHSATAMode` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPCHSATAMode
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPCILOMPortsConfiguration` Module
+--------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPCISlotLinkSpeed` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPCISlotOptionROMEnable` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPOSTErrorPause` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPOSTErrorPause
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPSTATECoordination` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPSTATECoordination
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfPackageCStateLimit` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfPackageCStateLimit
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorC1E` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorC1E
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorC3Report` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorC3Report
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorC6Report` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorC6Report
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorC7Report` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorC7Report
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorCState` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorCState
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorEnergyConfiguration` Module
+------------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfProcessorPrefetchConfig` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfQPILinkFrequencySelect` Module
+------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfQPISnoopMode` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfQPISnoopMode
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfQuietBoot` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfQuietBoot
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfResumeOnACPowerLoss` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfScrubPolicies` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfScrubPolicies
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfSelectMemoryRASConfiguration` Module
+------------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfSerialPortAEnable` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfSerialPortAEnable
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfSparingMode` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfSparingMode
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfSriovConfig` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfSriovConfig
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfTPMPendingOperation` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfTPMPendingOperation
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfTPMSupport` Module
+------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfTPMSupport
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfTrustedPlatformModule` Module
+-----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfTrustedPlatformModule
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUCSMBootModeControl` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUCSMBootModeControl
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUCSMBootOrderRuleControl` Module
+--------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUEFIOSUseLegacyVideo` Module
+----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUSBBootConfig` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUSBBootConfig
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUSBConfiguration` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUSBConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUSBFrontPanelAccessLock` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUSBPortConfiguration` Module
+----------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUSBPortConfiguration
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfUSBSystemIdlePowerOptimizingSetting` Module
+-------------------------------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting
+    :members:
+    :show-inheritance:
+
+:mod:`BiosVfVGAPriority` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.bios.BiosVfVGAPriority
+    :members:
+    :show-inheritance:
+

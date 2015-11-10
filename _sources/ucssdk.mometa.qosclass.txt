@@ -1,0 +1,52 @@
+qosclass Package
+================
+
+:mod:`QosclassDefinition` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassDefinition
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassDefinitionFsm` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassDefinitionFsm
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassDefinitionFsmStage` Module
+----------------------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassDefinitionFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassDefinitionFsmTask` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassDefinitionFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassEthBE` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassEthBE
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassEthClassified` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassEthClassified
+    :members:
+    :show-inheritance:
+
+:mod:`QosclassFc` Module
+------------------------
+
+.. automodule:: ucssdk.mometa.qosclass.QosclassFc
+    :members:
+    :show-inheritance:
+

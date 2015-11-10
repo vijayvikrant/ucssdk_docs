@@ -1,0 +1,45 @@
+swat Package
+============
+
+:mod:`SwatAction` Module
+------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatAction
+    :members:
+    :show-inheritance:
+
+:mod:`SwatCondition` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatCondition
+    :members:
+    :show-inheritance:
+
+:mod:`SwatInjection` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatInjection
+    :members:
+    :show-inheritance:
+
+:mod:`SwatResultstats` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatResultstats
+    :members:
+    :show-inheritance:
+
+:mod:`SwatTarget` Module
+------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatTarget
+    :members:
+    :show-inheritance:
+
+:mod:`SwatTrigger` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.swat.SwatTrigger
+    :members:
+    :show-inheritance:
+

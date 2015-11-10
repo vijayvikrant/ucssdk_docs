@@ -1,0 +1,59 @@
+fault Package
+=============
+
+:mod:`FaultAffectedClass` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultAffectedClass
+    :members:
+    :show-inheritance:
+
+:mod:`FaultHolder` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultHolder
+    :members:
+    :show-inheritance:
+
+:mod:`FaultInst` Module
+-----------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultInst
+    :members:
+    :show-inheritance:
+
+:mod:`FaultLocalTypedHolder` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultLocalTypedHolder
+    :members:
+    :show-inheritance:
+
+:mod:`FaultPolicy` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`FaultSuppressPolicy` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultSuppressPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`FaultSuppressPolicyItem` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultSuppressPolicyItem
+    :members:
+    :show-inheritance:
+
+:mod:`FaultSuppressTask` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.fault.FaultSuppressTask
+    :members:
+    :show-inheritance:
+

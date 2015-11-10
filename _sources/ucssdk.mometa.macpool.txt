@@ -1,0 +1,52 @@
+macpool Package
+===============
+
+:mod:`MacpoolAddr` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolAddr
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolBlock` Module
+--------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolBlock
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolFormat` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolFormat
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolPool` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolPool
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolPoolable` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolPoolable
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolPooled` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolPooled
+    :members:
+    :show-inheritance:
+
+:mod:`MacpoolUniverse` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.macpool.MacpoolUniverse
+    :members:
+    :show-inheritance:
+

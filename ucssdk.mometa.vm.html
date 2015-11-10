@@ -1,0 +1,454 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>vm Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="vnic Package" href="ucssdk.mometa.vnic.html"/>
+        <link rel="prev" title="version Package" href="ucssdk.mometa.version.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>vm Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.vm.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="vm-package">
+<h1>vm Package<a class="headerlink" href="#vm-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.vm.VmComputeEp">
+<span id="vmcomputeep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmComputeEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmComputeEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmComputeEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmComputeEp.VmComputeEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmComputeEp.</code><code class="descname">VmComputeEp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>uuid</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmComputeEp.html#VmComputeEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmComputeEp.VmComputeEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmComputeEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmDC">
+<span id="vmdc-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmDC</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmDC" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmDC ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmDC.VmDC">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmDC.</code><code class="descname">VmDC</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmDC.html#VmDC"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmDC.VmDC" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmDC class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmDCOrg">
+<span id="vmdcorg-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmDCOrg</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmDCOrg" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmDCOrg ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmDCOrg.VmDCOrg">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmDCOrg.</code><code class="descname">VmDCOrg</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmDCOrg.html#VmDCOrg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmDCOrg.VmDCOrg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmDCOrg class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmEp">
+<span id="vmep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmEp.VmEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmEp.</code><code class="descname">VmEp</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmEp.html#VmEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmEp.VmEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmHba">
+<span id="vmhba-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmHba</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmHba" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmHba ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmHba.VmHba">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmHba.</code><code class="descname">VmHba</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmHba.html#VmHba"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmHba.VmHba" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmHba class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmHv">
+<span id="vmhv-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmHv</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmHv" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmHv ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmHv.VmHv">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmHv.</code><code class="descname">VmHv</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>uuid</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmHv.html#VmHv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmHv.VmHv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmHv class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmInstance">
+<span id="vminstance-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmInstance</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmInstance" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmInstance ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmInstance.VmInstance">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmInstance.</code><code class="descname">VmInstance</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>uuid</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmInstance.html#VmInstance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmInstance.VmInstance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmInstance class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmLifeCyclePolicy">
+<span id="vmlifecyclepolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmLifeCyclePolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmLifeCyclePolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmLifeCyclePolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmLifeCyclePolicy.VmLifeCyclePolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmLifeCyclePolicy.</code><code class="descname">VmLifeCyclePolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmLifeCyclePolicy.html#VmLifeCyclePolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmLifeCyclePolicy.VmLifeCyclePolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmLifeCyclePolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmLifeCyclePolicyFsm">
+<span id="vmlifecyclepolicyfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmLifeCyclePolicyFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmLifeCyclePolicyFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmLifeCyclePolicyFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmLifeCyclePolicyFsm.VmLifeCyclePolicyFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmLifeCyclePolicyFsm.</code><code class="descname">VmLifeCyclePolicyFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmLifeCyclePolicyFsm.html#VmLifeCyclePolicyFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmLifeCyclePolicyFsm.VmLifeCyclePolicyFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmLifeCyclePolicyFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage">
+<span id="vmlifecyclepolicyfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmLifeCyclePolicyFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmLifeCyclePolicyFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage.VmLifeCyclePolicyFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage.</code><code class="descname">VmLifeCyclePolicyFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmLifeCyclePolicyFsmStage.html#VmLifeCyclePolicyFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage.VmLifeCyclePolicyFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmLifeCyclePolicyFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask">
+<span id="vmlifecyclepolicyfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmLifeCyclePolicyFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmLifeCyclePolicyFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask.VmLifeCyclePolicyFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask.</code><code class="descname">VmLifeCyclePolicyFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmLifeCyclePolicyFsmTask.html#VmLifeCyclePolicyFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask.VmLifeCyclePolicyFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmLifeCyclePolicyFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmNic">
+<span id="vmnic-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmNic</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmNic" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmNic ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmNic.VmNic">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmNic.</code><code class="descname">VmNic</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmNic.html#VmNic"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmNic.VmNic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmNic class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmOrg">
+<span id="vmorg-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmOrg</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmOrg" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmOrg ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmOrg.VmOrg">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmOrg.</code><code class="descname">VmOrg</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmOrg.html#VmOrg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmOrg.VmOrg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmOrg class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmSwitch">
+<span id="vmswitch-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmSwitch</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmSwitch" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmSwitch ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmSwitch.VmSwitch">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmSwitch.</code><code class="descname">VmSwitch</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmSwitch.html#VmSwitch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmSwitch.VmSwitch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmSwitch class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmVif">
+<span id="vmvif-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmVif</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmVif" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmVif ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmVif.VmVif">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmVif.</code><code class="descname">VmVif</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>ph_switch_id</em>, <em>vif_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmVif.html#VmVif"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmVif.VmVif" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmVif class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmVlan">
+<span id="vmvlan-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmVlan</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmVlan" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmVlan ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmVlan.VmVlan">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmVlan.</code><code class="descname">VmVlan</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmVlan.html#VmVlan"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmVlan.VmVlan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmVlan class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmVnicProfCl">
+<span id="vmvnicprofcl-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmVnicProfCl</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmVnicProfCl" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmVnicProfCl ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmVnicProfCl.VmVnicProfCl">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmVnicProfCl.</code><code class="descname">VmVnicProfCl</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmVnicProfCl.html#VmVnicProfCl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmVnicProfCl.VmVnicProfCl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmVnicProfCl class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmVnicProfInst">
+<span id="vmvnicprofinst-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmVnicProfInst</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmVnicProfInst" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmVnicProfInst ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmVnicProfInst.VmVnicProfInst">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmVnicProfInst.</code><code class="descname">VmVnicProfInst</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmVnicProfInst.html#VmVnicProfInst"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmVnicProfInst.VmVnicProfInst" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmVnicProfInst class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.vm.VmVsan">
+<span id="vmvsan-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">VmVsan</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.vm.VmVsan" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for VmVsan ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.vm.VmVsan.VmVsan">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.vm.VmVsan.</code><code class="descname">VmVsan</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/vm/VmVsan.html#VmVsan"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.vm.VmVsan.VmVsan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is VmVsan class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.vnic.html" class="btn btn-neutral float-right" title="vnic Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.version.html" class="btn btn-neutral" title="version Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

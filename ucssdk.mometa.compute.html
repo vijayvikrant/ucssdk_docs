@@ -1,0 +1,1092 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>compute Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="config Package" href="ucssdk.mometa.config.html"/>
+        <link rel="prev" title="comm Package" href="ucssdk.mometa.comm.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>compute Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.compute.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="compute-package">
+<h1>compute Package<a class="headerlink" href="#compute-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeAutoconfigPolicy">
+<span id="computeautoconfigpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeAutoconfigPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeAutoconfigPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeAutoconfigPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeAutoconfigPolicy.ComputeAutoconfigPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeAutoconfigPolicy.</code><code class="descname">ComputeAutoconfigPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeAutoconfigPolicy.html#ComputeAutoconfigPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeAutoconfigPolicy.ComputeAutoconfigPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeAutoconfigPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBlade">
+<span id="computeblade-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBlade</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBlade" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBlade ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBlade.ComputeBlade">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBlade.</code><code class="descname">ComputeBlade</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>slot_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBlade.html#ComputeBlade"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBlade.ComputeBlade" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBlade class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeDiscPolicy">
+<span id="computebladediscpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeDiscPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeDiscPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeDiscPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeDiscPolicy.ComputeBladeDiscPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeDiscPolicy.</code><code class="descname">ComputeBladeDiscPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeDiscPolicy.html#ComputeBladeDiscPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeDiscPolicy.ComputeBladeDiscPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeDiscPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeEp">
+<span id="computebladeep-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeEp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeEp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeEp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeEp.ComputeBladeEp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeEp.</code><code class="descname">ComputeBladeEp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeEp.html#ComputeBladeEp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeEp.ComputeBladeEp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeEp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeFsm">
+<span id="computebladefsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeFsm.ComputeBladeFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeFsm.</code><code class="descname">ComputeBladeFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeFsm.html#ComputeBladeFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeFsm.ComputeBladeFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeFsmStage">
+<span id="computebladefsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeFsmStage.ComputeBladeFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeFsmStage.</code><code class="descname">ComputeBladeFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeFsmStage.html#ComputeBladeFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeFsmStage.ComputeBladeFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeFsmTask">
+<span id="computebladefsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeFsmTask.ComputeBladeFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeFsmTask.</code><code class="descname">ComputeBladeFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeFsmTask.html#ComputeBladeFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeFsmTask.ComputeBladeFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBladeInheritPolicy">
+<span id="computebladeinheritpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBladeInheritPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBladeInheritPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBladeInheritPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBladeInheritPolicy.ComputeBladeInheritPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBladeInheritPolicy.</code><code class="descname">ComputeBladeInheritPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBladeInheritPolicy.html#ComputeBladeInheritPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBladeInheritPolicy.ComputeBladeInheritPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBladeInheritPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBoard">
+<span id="computeboard-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBoard</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBoard" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBoard ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBoard.ComputeBoard">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBoard.</code><code class="descname">ComputeBoard</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBoard.html#ComputeBoard"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBoard.ComputeBoard" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBoard class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBoardConnector">
+<span id="computeboardconnector-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBoardConnector</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBoardConnector" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBoardConnector ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBoardConnector.ComputeBoardConnector">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBoardConnector.</code><code class="descname">ComputeBoardConnector</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBoardConnector.html#ComputeBoardConnector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBoardConnector.ComputeBoardConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBoardConnector class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeBoardController">
+<span id="computeboardcontroller-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeBoardController</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeBoardController" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeBoardController ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeBoardController.ComputeBoardController">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeBoardController.</code><code class="descname">ComputeBoardController</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeBoardController.html#ComputeBoardController"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeBoardController.ComputeBoardController" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeBoardController class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeCartridge">
+<span id="computecartridge-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeCartridge</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeCartridge" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeCartridge ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeCartridge.ComputeCartridge">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeCartridge.</code><code class="descname">ComputeCartridge</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>slot_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeCartridge.html#ComputeCartridge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeCartridge.ComputeCartridge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeCartridge class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeChassisConnPolicy">
+<span id="computechassisconnpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeChassisConnPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeChassisConnPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeChassisConnPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeChassisConnPolicy.ComputeChassisConnPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeChassisConnPolicy.</code><code class="descname">ComputeChassisConnPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>chassis_id</em>, <em>switch_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeChassisConnPolicy.html#ComputeChassisConnPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeChassisConnPolicy.ComputeChassisConnPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeChassisConnPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeChassisDiscPolicy">
+<span id="computechassisdiscpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeChassisDiscPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeChassisDiscPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeChassisDiscPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeChassisDiscPolicy.ComputeChassisDiscPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeChassisDiscPolicy.</code><code class="descname">ComputeChassisDiscPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeChassisDiscPolicy.html#ComputeChassisDiscPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeChassisDiscPolicy.ComputeChassisDiscPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeChassisDiscPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeChassisQual">
+<span id="computechassisqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeChassisQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeChassisQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeChassisQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeChassisQual.ComputeChassisQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeChassisQual.</code><code class="descname">ComputeChassisQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>min_id</em>, <em>max_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeChassisQual.html#ComputeChassisQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeChassisQual.ComputeChassisQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeChassisQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeConstraintDef">
+<span id="computeconstraintdef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeConstraintDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeConstraintDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeConstraintDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeConstraintDef.ComputeConstraintDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeConstraintDef.</code><code class="descname">ComputeConstraintDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeConstraintDef.html#ComputeConstraintDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeConstraintDef.ComputeConstraintDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeConstraintDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeDefaults">
+<span id="computedefaults-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeDefaults</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeDefaults" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeDefaults ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeDefaults.ComputeDefaults">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeDefaults.</code><code class="descname">ComputeDefaults</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeDefaults.html#ComputeDefaults"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeDefaults.ComputeDefaults" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeDefaults class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeExtBoard">
+<span id="computeextboard-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeExtBoard</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeExtBoard" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeExtBoard ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeExtBoard.ComputeExtBoard">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeExtBoard.</code><code class="descname">ComputeExtBoard</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeExtBoard.html#ComputeExtBoard"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeExtBoard.ComputeExtBoard" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeExtBoard class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeFwSyncAck">
+<span id="computefwsyncack-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeFwSyncAck</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeFwSyncAck" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeFwSyncAck ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeFwSyncAck.ComputeFwSyncAck">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeFwSyncAck.</code><code class="descname">ComputeFwSyncAck</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeFwSyncAck.html#ComputeFwSyncAck"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeFwSyncAck.ComputeFwSyncAck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeFwSyncAck class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeHealthLedSensorAlarm">
+<span id="computehealthledsensoralarm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeHealthLedSensorAlarm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeHealthLedSensorAlarm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeHealthLedSensorAlarm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeHealthLedSensorAlarm.ComputeHealthLedSensorAlarm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeHealthLedSensorAlarm.</code><code class="descname">ComputeHealthLedSensorAlarm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>sensor_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeHealthLedSensorAlarm.html#ComputeHealthLedSensorAlarm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeHealthLedSensorAlarm.ComputeHealthLedSensorAlarm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeHealthLedSensorAlarm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeIOHub">
+<span id="computeiohub-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeIOHub</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeIOHub" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeIOHub ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeIOHub.ComputeIOHub">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeIOHub.</code><code class="descname">ComputeIOHub</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeIOHub.html#ComputeIOHub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeIOHub.ComputeIOHub" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeIOHub class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeIOHubEnvStats">
+<span id="computeiohubenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeIOHubEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeIOHubEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeIOHubEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeIOHubEnvStats.ComputeIOHubEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeIOHubEnvStats.</code><code class="descname">ComputeIOHubEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeIOHubEnvStats.html#ComputeIOHubEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeIOHubEnvStats.ComputeIOHubEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeIOHubEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeIOHubEnvStatsHist">
+<span id="computeiohubenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeIOHubEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeIOHubEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeIOHubEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeIOHubEnvStatsHist.ComputeIOHubEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeIOHubEnvStatsHist.</code><code class="descname">ComputeIOHubEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeIOHubEnvStatsHist.html#ComputeIOHubEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeIOHubEnvStatsHist.ComputeIOHubEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeIOHubEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeInstanceIdQual">
+<span id="computeinstanceidqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeInstanceIdQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeInstanceIdQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeInstanceIdQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeInstanceIdQual.ComputeInstanceIdQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeInstanceIdQual.</code><code class="descname">ComputeInstanceIdQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>min_id</em>, <em>max_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeInstanceIdQual.html#ComputeInstanceIdQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeInstanceIdQual.ComputeInstanceIdQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeInstanceIdQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeKvmMgmtPolicy">
+<span id="computekvmmgmtpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeKvmMgmtPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeKvmMgmtPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeKvmMgmtPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeKvmMgmtPolicy.ComputeKvmMgmtPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeKvmMgmtPolicy.</code><code class="descname">ComputeKvmMgmtPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeKvmMgmtPolicy.html#ComputeKvmMgmtPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeKvmMgmtPolicy.ComputeKvmMgmtPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeKvmMgmtPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMbPowerStats">
+<span id="computembpowerstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMbPowerStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMbPowerStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMbPowerStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMbPowerStats.ComputeMbPowerStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMbPowerStats.</code><code class="descname">ComputeMbPowerStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMbPowerStats.html#ComputeMbPowerStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMbPowerStats.ComputeMbPowerStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMbPowerStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMbPowerStatsHist">
+<span id="computembpowerstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMbPowerStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMbPowerStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMbPowerStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMbPowerStatsHist.ComputeMbPowerStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMbPowerStatsHist.</code><code class="descname">ComputeMbPowerStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMbPowerStatsHist.html#ComputeMbPowerStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMbPowerStatsHist.ComputeMbPowerStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMbPowerStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMbTempStats">
+<span id="computembtempstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMbTempStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMbTempStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMbTempStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMbTempStats.ComputeMbTempStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMbTempStats.</code><code class="descname">ComputeMbTempStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMbTempStats.html#ComputeMbTempStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMbTempStats.ComputeMbTempStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMbTempStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMbTempStatsHist">
+<span id="computembtempstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMbTempStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMbTempStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMbTempStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMbTempStatsHist.ComputeMbTempStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMbTempStatsHist.</code><code class="descname">ComputeMbTempStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMbTempStatsHist.html#ComputeMbTempStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMbTempStatsHist.ComputeMbTempStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMbTempStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMemoryConfigPolicy">
+<span id="computememoryconfigpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMemoryConfigPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMemoryConfigPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMemoryConfigPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMemoryConfigPolicy.ComputeMemoryConfigPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMemoryConfigPolicy.</code><code class="descname">ComputeMemoryConfigPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMemoryConfigPolicy.html#ComputeMemoryConfigPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMemoryConfigPolicy.ComputeMemoryConfigPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMemoryConfigPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMemoryConfiguration">
+<span id="computememoryconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMemoryConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMemoryConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMemoryConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMemoryConfiguration.ComputeMemoryConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMemoryConfiguration.</code><code class="descname">ComputeMemoryConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMemoryConfiguration.html#ComputeMemoryConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMemoryConfiguration.ComputeMemoryConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMemoryConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeMemoryUnitConstraintDef">
+<span id="computememoryunitconstraintdef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeMemoryUnitConstraintDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeMemoryUnitConstraintDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeMemoryUnitConstraintDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeMemoryUnitConstraintDef.ComputeMemoryUnitConstraintDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeMemoryUnitConstraintDef.</code><code class="descname">ComputeMemoryUnitConstraintDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeMemoryUnitConstraintDef.html#ComputeMemoryUnitConstraintDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeMemoryUnitConstraintDef.ComputeMemoryUnitConstraintDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeMemoryUnitConstraintDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePCIeFatalCompletionStats">
+<span id="computepciefatalcompletionstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePCIeFatalCompletionStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePCIeFatalCompletionStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePCIeFatalCompletionStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePCIeFatalCompletionStats.ComputePCIeFatalCompletionStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePCIeFatalCompletionStats.</code><code class="descname">ComputePCIeFatalCompletionStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePCIeFatalCompletionStats.html#ComputePCIeFatalCompletionStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePCIeFatalCompletionStats.ComputePCIeFatalCompletionStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePCIeFatalCompletionStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePCIeFatalProtocolStats">
+<span id="computepciefatalprotocolstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePCIeFatalProtocolStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePCIeFatalProtocolStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePCIeFatalProtocolStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePCIeFatalProtocolStats.ComputePCIeFatalProtocolStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePCIeFatalProtocolStats.</code><code class="descname">ComputePCIeFatalProtocolStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePCIeFatalProtocolStats.html#ComputePCIeFatalProtocolStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePCIeFatalProtocolStats.ComputePCIeFatalProtocolStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePCIeFatalProtocolStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePCIeFatalReceiveStats">
+<span id="computepciefatalreceivestats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePCIeFatalReceiveStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePCIeFatalReceiveStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePCIeFatalReceiveStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePCIeFatalReceiveStats.ComputePCIeFatalReceiveStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePCIeFatalReceiveStats.</code><code class="descname">ComputePCIeFatalReceiveStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePCIeFatalReceiveStats.html#ComputePCIeFatalReceiveStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePCIeFatalReceiveStats.ComputePCIeFatalReceiveStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePCIeFatalReceiveStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePCIeFatalStats">
+<span id="computepciefatalstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePCIeFatalStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePCIeFatalStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePCIeFatalStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePCIeFatalStats.ComputePCIeFatalStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePCIeFatalStats.</code><code class="descname">ComputePCIeFatalStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePCIeFatalStats.html#ComputePCIeFatalStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePCIeFatalStats.ComputePCIeFatalStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePCIeFatalStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePciCap">
+<span id="computepcicap-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePciCap</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePciCap" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePciCap ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePciCap.ComputePciCap">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePciCap.</code><code class="descname">ComputePciCap</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePciCap.html#ComputePciCap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePciCap.ComputePciCap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePciCap class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePciSlotScanDef">
+<span id="computepcislotscandef-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePciSlotScanDef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePciSlotScanDef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePciSlotScanDef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePciSlotScanDef.ComputePciSlotScanDef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePciSlotScanDef.</code><code class="descname">ComputePciSlotScanDef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>slot_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePciSlotScanDef.html#ComputePciSlotScanDef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePciSlotScanDef.ComputePciSlotScanDef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePciSlotScanDef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePhysicalAssocCtx">
+<span id="computephysicalassocctx-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePhysicalAssocCtx</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePhysicalAssocCtx" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePhysicalAssocCtx ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePhysicalAssocCtx.ComputePhysicalAssocCtx">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePhysicalAssocCtx.</code><code class="descname">ComputePhysicalAssocCtx</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePhysicalAssocCtx.html#ComputePhysicalAssocCtx"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePhysicalAssocCtx.ComputePhysicalAssocCtx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePhysicalAssocCtx class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePhysicalFsm">
+<span id="computephysicalfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePhysicalFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePhysicalFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePhysicalFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePhysicalFsm.ComputePhysicalFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePhysicalFsm.</code><code class="descname">ComputePhysicalFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePhysicalFsm.html#ComputePhysicalFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePhysicalFsm.ComputePhysicalFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePhysicalFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePhysicalFsmStage">
+<span id="computephysicalfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePhysicalFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePhysicalFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePhysicalFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePhysicalFsmStage.ComputePhysicalFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePhysicalFsmStage.</code><code class="descname">ComputePhysicalFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePhysicalFsmStage.html#ComputePhysicalFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePhysicalFsmStage.ComputePhysicalFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePhysicalFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePhysicalFsmTask">
+<span id="computephysicalfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePhysicalFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePhysicalFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePhysicalFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePhysicalFsmTask.ComputePhysicalFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePhysicalFsmTask.</code><code class="descname">ComputePhysicalFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePhysicalFsmTask.html#ComputePhysicalFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePhysicalFsmTask.ComputePhysicalFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePhysicalFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePhysicalQual">
+<span id="computephysicalqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePhysicalQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePhysicalQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePhysicalQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePhysicalQual.ComputePhysicalQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePhysicalQual.</code><code class="descname">ComputePhysicalQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePhysicalQual.html#ComputePhysicalQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePhysicalQual.ComputePhysicalQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePhysicalQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePlatform">
+<span id="computeplatform-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePlatform</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePlatform" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePlatform ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePlatform.ComputePlatform">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePlatform.</code><code class="descname">ComputePlatform</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>vendor</em>, <em>model</em>, <em>revision</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePlatform.html#ComputePlatform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePlatform.ComputePlatform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePlatform class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePnuOSImage">
+<span id="computepnuosimage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePnuOSImage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePnuOSImage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePnuOSImage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePnuOSImage.ComputePnuOSImage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePnuOSImage.</code><code class="descname">ComputePnuOSImage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePnuOSImage.html#ComputePnuOSImage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePnuOSImage.ComputePnuOSImage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePnuOSImage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePool">
+<span id="computepool-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePool</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePool" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePool ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePool.ComputePool">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePool.</code><code class="descname">ComputePool</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePool.html#ComputePool"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePool.ComputePool" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePool class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePoolPolicyRef">
+<span id="computepoolpolicyref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePoolPolicyRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePoolPolicyRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePoolPolicyRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePoolPolicyRef.ComputePoolPolicyRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePoolPolicyRef.</code><code class="descname">ComputePoolPolicyRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePoolPolicyRef.html#ComputePoolPolicyRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePoolPolicyRef.ComputePoolPolicyRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePoolPolicyRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePoolable">
+<span id="computepoolable-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePoolable</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePoolable" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePoolable ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePoolable.ComputePoolable">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePoolable.</code><code class="descname">ComputePoolable</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePoolable.html#ComputePoolable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePoolable.ComputePoolable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePoolable class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePooledEnclosureComputeSlot">
+<span id="computepooledenclosurecomputeslot-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePooledEnclosureComputeSlot</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePooledEnclosureComputeSlot" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePooledEnclosureComputeSlot ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePooledEnclosureComputeSlot.ComputePooledEnclosureComputeSlot">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePooledEnclosureComputeSlot.</code><code class="descname">ComputePooledEnclosureComputeSlot</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>chassis_id</em>, <em>slot_id</em>, <em>server_instance_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePooledEnclosureComputeSlot.html#ComputePooledEnclosureComputeSlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePooledEnclosureComputeSlot.ComputePooledEnclosureComputeSlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePooledEnclosureComputeSlot class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePooledRackUnit">
+<span id="computepooledrackunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePooledRackUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePooledRackUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePooledRackUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePooledRackUnit.ComputePooledRackUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePooledRackUnit.</code><code class="descname">ComputePooledRackUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePooledRackUnit.html#ComputePooledRackUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePooledRackUnit.ComputePooledRackUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePooledRackUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePooledSlot">
+<span id="computepooledslot-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePooledSlot</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePooledSlot" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePooledSlot ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePooledSlot.ComputePooledSlot">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePooledSlot.</code><code class="descname">ComputePooledSlot</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>chassis_id</em>, <em>slot_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePooledSlot.html#ComputePooledSlot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePooledSlot.ComputePooledSlot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePooledSlot class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePoolingPolicy">
+<span id="computepoolingpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePoolingPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePoolingPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePoolingPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePoolingPolicy.ComputePoolingPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePoolingPolicy.</code><code class="descname">ComputePoolingPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePoolingPolicy.html#ComputePoolingPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePoolingPolicy.ComputePoolingPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePoolingPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePsuControl">
+<span id="computepsucontrol-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePsuControl</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePsuControl" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePsuControl ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePsuControl.ComputePsuControl">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePsuControl.</code><code class="descname">ComputePsuControl</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePsuControl.html#ComputePsuControl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePsuControl.ComputePsuControl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePsuControl class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputePsuPolicy">
+<span id="computepsupolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputePsuPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputePsuPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputePsuPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputePsuPolicy.ComputePsuPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputePsuPolicy.</code><code class="descname">ComputePsuPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputePsuPolicy.html#ComputePsuPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputePsuPolicy.ComputePsuPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputePsuPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeQual">
+<span id="computequal-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeQual.ComputeQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeQual.</code><code class="descname">ComputeQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeQual.html#ComputeQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeQual.ComputeQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackQual">
+<span id="computerackqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackQual.ComputeRackQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackQual.</code><code class="descname">ComputeRackQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>min_id</em>, <em>max_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackQual.html#ComputeRackQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackQual.ComputeRackQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnit">
+<span id="computerackunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnit.ComputeRackUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnit.</code><code class="descname">ComputeRackUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnit.html#ComputeRackUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnit.ComputeRackUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnitFsm">
+<span id="computerackunitfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnitFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnitFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnitFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnitFsm.ComputeRackUnitFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnitFsm.</code><code class="descname">ComputeRackUnitFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnitFsm.html#ComputeRackUnitFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnitFsm.ComputeRackUnitFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnitFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnitFsmStage">
+<span id="computerackunitfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnitFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnitFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnitFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnitFsmStage.ComputeRackUnitFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnitFsmStage.</code><code class="descname">ComputeRackUnitFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnitFsmStage.html#ComputeRackUnitFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnitFsmStage.ComputeRackUnitFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnitFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnitFsmTask">
+<span id="computerackunitfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnitFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnitFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnitFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnitFsmTask.ComputeRackUnitFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnitFsmTask.</code><code class="descname">ComputeRackUnitFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnitFsmTask.html#ComputeRackUnitFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnitFsmTask.ComputeRackUnitFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnitFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnitMbTempStats">
+<span id="computerackunitmbtempstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnitMbTempStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnitMbTempStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnitMbTempStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnitMbTempStats.ComputeRackUnitMbTempStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnitMbTempStats.</code><code class="descname">ComputeRackUnitMbTempStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnitMbTempStats.html#ComputeRackUnitMbTempStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnitMbTempStats.ComputeRackUnitMbTempStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnitMbTempStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRackUnitMbTempStatsHist">
+<span id="computerackunitmbtempstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRackUnitMbTempStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRackUnitMbTempStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRackUnitMbTempStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRackUnitMbTempStatsHist.ComputeRackUnitMbTempStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRackUnitMbTempStatsHist.</code><code class="descname">ComputeRackUnitMbTempStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRackUnitMbTempStatsHist.html#ComputeRackUnitMbTempStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRackUnitMbTempStatsHist.ComputeRackUnitMbTempStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRackUnitMbTempStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeRtcBattery">
+<span id="computertcbattery-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeRtcBattery</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeRtcBattery" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeRtcBattery ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeRtcBattery.ComputeRtcBattery">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeRtcBattery.</code><code class="descname">ComputeRtcBattery</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeRtcBattery.html#ComputeRtcBattery"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeRtcBattery.ComputeRtcBattery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeRtcBattery class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeScrubPolicy">
+<span id="computescrubpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeScrubPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeScrubPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeScrubPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeScrubPolicy.ComputeScrubPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeScrubPolicy.</code><code class="descname">ComputeScrubPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeScrubPolicy.html#ComputeScrubPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeScrubPolicy.ComputeScrubPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeScrubPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerDiscPolicy">
+<span id="computeserverdiscpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerDiscPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerDiscPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerDiscPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerDiscPolicy.ComputeServerDiscPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerDiscPolicy.</code><code class="descname">ComputeServerDiscPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerDiscPolicy.html#ComputeServerDiscPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerDiscPolicy.ComputeServerDiscPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerDiscPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsm">
+<span id="computeserverdiscpolicyfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerDiscPolicyFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerDiscPolicyFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerDiscPolicyFsm.ComputeServerDiscPolicyFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerDiscPolicyFsm.</code><code class="descname">ComputeServerDiscPolicyFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerDiscPolicyFsm.html#ComputeServerDiscPolicyFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerDiscPolicyFsm.ComputeServerDiscPolicyFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerDiscPolicyFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsmStage">
+<span id="computeserverdiscpolicyfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerDiscPolicyFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerDiscPolicyFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerDiscPolicyFsmStage.ComputeServerDiscPolicyFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerDiscPolicyFsmStage.</code><code class="descname">ComputeServerDiscPolicyFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerDiscPolicyFsmStage.html#ComputeServerDiscPolicyFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerDiscPolicyFsmStage.ComputeServerDiscPolicyFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerDiscPolicyFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsmTask">
+<span id="computeserverdiscpolicyfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerDiscPolicyFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerDiscPolicyFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerDiscPolicyFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerDiscPolicyFsmTask.ComputeServerDiscPolicyFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerDiscPolicyFsmTask.</code><code class="descname">ComputeServerDiscPolicyFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerDiscPolicyFsmTask.html#ComputeServerDiscPolicyFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerDiscPolicyFsmTask.ComputeServerDiscPolicyFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerDiscPolicyFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerMgmtPolicy">
+<span id="computeservermgmtpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerMgmtPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerMgmtPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerMgmtPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerMgmtPolicy.ComputeServerMgmtPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerMgmtPolicy.</code><code class="descname">ComputeServerMgmtPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerMgmtPolicy.html#ComputeServerMgmtPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerMgmtPolicy.ComputeServerMgmtPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerMgmtPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerTypeCap">
+<span id="computeservertypecap-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerTypeCap</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerTypeCap" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerTypeCap ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerTypeCap.ComputeServerTypeCap">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerTypeCap.</code><code class="descname">ComputeServerTypeCap</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerTypeCap.html#ComputeServerTypeCap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerTypeCap.ComputeServerTypeCap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerTypeCap class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerUnit">
+<span id="computeserverunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerUnit.ComputeServerUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerUnit.</code><code class="descname">ComputeServerUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>server_instance_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerUnit.html#ComputeServerUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerUnit.ComputeServerUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerUnitFsm">
+<span id="computeserverunitfsm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerUnitFsm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerUnitFsm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerUnitFsm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerUnitFsm.ComputeServerUnitFsm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerUnitFsm.</code><code class="descname">ComputeServerUnitFsm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerUnitFsm.html#ComputeServerUnitFsm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerUnitFsm.ComputeServerUnitFsm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerUnitFsm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerUnitFsmStage">
+<span id="computeserverunitfsmstage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerUnitFsmStage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerUnitFsmStage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerUnitFsmStage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerUnitFsmStage.ComputeServerUnitFsmStage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerUnitFsmStage.</code><code class="descname">ComputeServerUnitFsmStage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerUnitFsmStage.html#ComputeServerUnitFsmStage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerUnitFsmStage.ComputeServerUnitFsmStage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerUnitFsmStage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeServerUnitFsmTask">
+<span id="computeserverunitfsmtask-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeServerUnitFsmTask</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeServerUnitFsmTask" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeServerUnitFsmTask ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeServerUnitFsmTask.ComputeServerUnitFsmTask">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeServerUnitFsmTask.</code><code class="descname">ComputeServerUnitFsmTask</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>item</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeServerUnitFsmTask.html#ComputeServerUnitFsmTask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeServerUnitFsmTask.ComputeServerUnitFsmTask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeServerUnitFsmTask class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeSlotQual">
+<span id="computeslotqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeSlotQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeSlotQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeSlotQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeSlotQual.ComputeSlotQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeSlotQual.</code><code class="descname">ComputeSlotQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>min_id</em>, <em>max_id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeSlotQual.html#ComputeSlotQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeSlotQual.ComputeSlotQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeSlotQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeStorageBladeMbTempStats">
+<span id="computestoragebladembtempstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeStorageBladeMbTempStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeStorageBladeMbTempStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeStorageBladeMbTempStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeStorageBladeMbTempStats.ComputeStorageBladeMbTempStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeStorageBladeMbTempStats.</code><code class="descname">ComputeStorageBladeMbTempStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeStorageBladeMbTempStats.html#ComputeStorageBladeMbTempStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeStorageBladeMbTempStats.ComputeStorageBladeMbTempStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeStorageBladeMbTempStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.compute.ComputeStorageBladeMbTempStatsHist">
+<span id="computestoragebladembtempstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ComputeStorageBladeMbTempStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.compute.ComputeStorageBladeMbTempStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ComputeStorageBladeMbTempStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.compute.ComputeStorageBladeMbTempStatsHist.ComputeStorageBladeMbTempStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.compute.ComputeStorageBladeMbTempStatsHist.</code><code class="descname">ComputeStorageBladeMbTempStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/compute/ComputeStorageBladeMbTempStatsHist.html#ComputeStorageBladeMbTempStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.compute.ComputeStorageBladeMbTempStatsHist.ComputeStorageBladeMbTempStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ComputeStorageBladeMbTempStatsHist class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.config.html" class="btn btn-neutral float-right" title="config Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.comm.html" class="btn btn-neutral" title="comm Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

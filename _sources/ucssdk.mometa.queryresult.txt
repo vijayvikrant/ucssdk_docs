@@ -1,0 +1,17 @@
+queryresult Package
+===================
+
+:mod:`QueryresultDependency` Module
+-----------------------------------
+
+.. automodule:: ucssdk.mometa.queryresult.QueryresultDependency
+    :members:
+    :show-inheritance:
+
+:mod:`QueryresultUsage` Module
+------------------------------
+
+.. automodule:: ucssdk.mometa.queryresult.QueryresultUsage
+    :members:
+    :show-inheritance:
+

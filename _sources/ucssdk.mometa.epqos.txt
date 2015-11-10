@@ -1,0 +1,66 @@
+epqos Package
+=============
+
+:mod:`EpqosDefinition` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinition
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionDelTask` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionDelTask
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionDelTaskFsm` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionDelTaskFsm
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionDelTaskFsmStage` Module
+--------------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionDelTaskFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionDelTaskFsmTask` Module
+-------------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionDelTaskFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionFsm` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionFsm
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionFsmStage` Module
+-------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosDefinitionFsmTask` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosDefinitionFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`EpqosEgress` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.epqos.EpqosEgress
+    :members:
+    :show-inheritance:
+

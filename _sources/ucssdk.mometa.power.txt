@@ -1,0 +1,101 @@
+power Package
+=============
+
+:mod:`PowerBudget` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerBudget
+    :members:
+    :show-inheritance:
+
+:mod:`PowerChassisMember` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerChassisMember
+    :members:
+    :show-inheritance:
+
+:mod:`PowerEp` Module
+---------------------
+
+.. automodule:: ucssdk.mometa.power.PowerEp
+    :members:
+    :show-inheritance:
+
+:mod:`PowerGroup` Module
+------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerGroup
+    :members:
+    :show-inheritance:
+
+:mod:`PowerGroupAdditionPolicy` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerGroupAdditionPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`PowerGroupQual` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerGroupQual
+    :members:
+    :show-inheritance:
+
+:mod:`PowerGroupStats` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerGroupStats
+    :members:
+    :show-inheritance:
+
+:mod:`PowerGroupStatsHist` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerGroupStatsHist
+    :members:
+    :show-inheritance:
+
+:mod:`PowerMgmtPolicy` Module
+-----------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerMgmtPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`PowerPlacement` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerPlacement
+    :members:
+    :show-inheritance:
+
+:mod:`PowerPolicy` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerPolicy
+    :members:
+    :show-inheritance:
+
+:mod:`PowerPrioWght` Module
+---------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerPrioWght
+    :members:
+    :show-inheritance:
+
+:mod:`PowerProfiledPower` Module
+--------------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerProfiledPower
+    :members:
+    :show-inheritance:
+
+:mod:`PowerRackUnitMember` Module
+---------------------------------
+
+.. automodule:: ucssdk.mometa.power.PowerRackUnitMember
+    :members:
+    :show-inheritance:
+

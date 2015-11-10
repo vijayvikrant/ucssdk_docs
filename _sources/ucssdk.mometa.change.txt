@@ -1,0 +1,10 @@
+change Package
+==============
+
+:mod:`ChangeChangedObjectRef` Module
+------------------------------------
+
+.. automodule:: ucssdk.mometa.change.ChangeChangedObjectRef
+    :members:
+    :show-inheritance:
+

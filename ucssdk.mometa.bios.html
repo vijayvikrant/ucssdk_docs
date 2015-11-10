@@ -1,0 +1,1224 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>bios Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="bmc Package" href="ucssdk.mometa.bmc.html"/>
+        <link rel="prev" title="ape Package" href="ucssdk.mometa.ape.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>bios Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.bios.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="bios-package">
+<h1>bios Package<a class="headerlink" href="#bios-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.bios.BiosBOT">
+<span id="biosbot-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosBOT</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosBOT" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosBOT ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosBOT.BiosBOT">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosBOT.</code><code class="descname">BiosBOT</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosBOT.html#BiosBOT"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosBOT.BiosBOT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosBOT class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosBootDev">
+<span id="biosbootdev-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosBootDev</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosBootDev" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosBootDev ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosBootDev.BiosBootDev">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosBootDev.</code><code class="descname">BiosBootDev</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>order</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosBootDev.html#BiosBootDev"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosBootDev.BiosBootDev" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosBootDev class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosBootDevGrp">
+<span id="biosbootdevgrp-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosBootDevGrp</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosBootDevGrp" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosBootDevGrp ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosBootDevGrp.BiosBootDevGrp">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosBootDevGrp.</code><code class="descname">BiosBootDevGrp</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>order</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosBootDevGrp.html#BiosBootDevGrp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosBootDevGrp.BiosBootDevGrp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosBootDevGrp class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosFeatureRef">
+<span id="biosfeatureref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosFeatureRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosFeatureRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosFeatureRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosFeatureRef.BiosFeatureRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosFeatureRef.</code><code class="descname">BiosFeatureRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosFeatureRef.html#BiosFeatureRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosFeatureRef.BiosFeatureRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosFeatureRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosParameterRef">
+<span id="biosparameterref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosParameterRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosParameterRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosParameterRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosParameterRef.BiosParameterRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosParameterRef.</code><code class="descname">BiosParameterRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosParameterRef.html#BiosParameterRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosParameterRef.BiosParameterRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosParameterRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosRef">
+<span id="biosref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosRef.BiosRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosRef.</code><code class="descname">BiosRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosRef.html#BiosRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosRef.BiosRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosSettingRef">
+<span id="biossettingref-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosSettingRef</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosSettingRef" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosSettingRef ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosSettingRef.BiosSettingRef">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosSettingRef.</code><code class="descname">BiosSettingRef</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosSettingRef.html#BiosSettingRef"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosSettingRef.BiosSettingRef" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosSettingRef class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosSettings">
+<span id="biossettings-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosSettings</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosSettings" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosSettings ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosSettings.BiosSettings">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosSettings.</code><code class="descname">BiosSettings</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosSettings.html#BiosSettings"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosSettings.BiosSettings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosSettings class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosUnit">
+<span id="biosunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosUnit.BiosUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosUnit.</code><code class="descname">BiosUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosUnit.html#BiosUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosUnit.BiosUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVIdentityParams">
+<span id="biosvidentityparams-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVIdentityParams</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVIdentityParams" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVIdentityParams ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVIdentityParams.BiosVIdentityParams">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVIdentityParams.</code><code class="descname">BiosVIdentityParams</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVIdentityParams.html#BiosVIdentityParams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVIdentityParams.BiosVIdentityParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVIdentityParams class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVProfile">
+<span id="biosvprofile-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVProfile</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVProfile" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVProfile ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVProfile.BiosVProfile">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVProfile.</code><code class="descname">BiosVProfile</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVProfile.html#BiosVProfile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVProfile.BiosVProfile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVProfile class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfACPI10Support">
+<span id="biosvfacpi10support-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfACPI10Support</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfACPI10Support" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfACPI10Support ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfACPI10Support.BiosVfACPI10Support">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfACPI10Support.</code><code class="descname">BiosVfACPI10Support</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfACPI10Support.html#BiosVfACPI10Support"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfACPI10Support.BiosVfACPI10Support" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfACPI10Support class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfASPMSupport">
+<span id="biosvfaspmsupport-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfASPMSupport</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfASPMSupport" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfASPMSupport ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfASPMSupport.BiosVfASPMSupport">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfASPMSupport.</code><code class="descname">BiosVfASPMSupport</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfASPMSupport.html#BiosVfASPMSupport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfASPMSupport.BiosVfASPMSupport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfASPMSupport class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfAllUSBDevices">
+<span id="biosvfallusbdevices-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfAllUSBDevices</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfAllUSBDevices" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfAllUSBDevices ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfAllUSBDevices.BiosVfAllUSBDevices">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfAllUSBDevices.</code><code class="descname">BiosVfAllUSBDevices</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfAllUSBDevices.html#BiosVfAllUSBDevices"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfAllUSBDevices.BiosVfAllUSBDevices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfAllUSBDevices class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfAltitude">
+<span id="biosvfaltitude-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfAltitude</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfAltitude" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfAltitude ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfAltitude.BiosVfAltitude">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfAltitude.</code><code class="descname">BiosVfAltitude</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfAltitude.html#BiosVfAltitude"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfAltitude.BiosVfAltitude" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfAltitude class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfAssertNMIOnPERR">
+<span id="biosvfassertnmionperr-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfAssertNMIOnPERR</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfAssertNMIOnPERR" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfAssertNMIOnPERR ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfAssertNMIOnPERR.BiosVfAssertNMIOnPERR">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfAssertNMIOnPERR.</code><code class="descname">BiosVfAssertNMIOnPERR</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfAssertNMIOnPERR.html#BiosVfAssertNMIOnPERR"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfAssertNMIOnPERR.BiosVfAssertNMIOnPERR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfAssertNMIOnPERR class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfAssertNMIOnSERR">
+<span id="biosvfassertnmionserr-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfAssertNMIOnSERR</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfAssertNMIOnSERR" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfAssertNMIOnSERR ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfAssertNMIOnSERR.BiosVfAssertNMIOnSERR">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfAssertNMIOnSERR.</code><code class="descname">BiosVfAssertNMIOnSERR</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfAssertNMIOnSERR.html#BiosVfAssertNMIOnSERR"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfAssertNMIOnSERR.BiosVfAssertNMIOnSERR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfAssertNMIOnSERR class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfBootOptionRetry">
+<span id="biosvfbootoptionretry-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfBootOptionRetry</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfBootOptionRetry" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfBootOptionRetry ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfBootOptionRetry.BiosVfBootOptionRetry">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfBootOptionRetry.</code><code class="descname">BiosVfBootOptionRetry</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfBootOptionRetry.html#BiosVfBootOptionRetry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfBootOptionRetry.BiosVfBootOptionRetry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfBootOptionRetry class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfCPUPerformance">
+<span id="biosvfcpuperformance-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfCPUPerformance</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfCPUPerformance" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfCPUPerformance ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfCPUPerformance.BiosVfCPUPerformance">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfCPUPerformance.</code><code class="descname">BiosVfCPUPerformance</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfCPUPerformance.html#BiosVfCPUPerformance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfCPUPerformance.BiosVfCPUPerformance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfCPUPerformance class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfCPUPowerManagement">
+<span id="biosvfcpupowermanagement-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfCPUPowerManagement</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfCPUPowerManagement" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfCPUPowerManagement ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfCPUPowerManagement.BiosVfCPUPowerManagement">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfCPUPowerManagement.</code><code class="descname">BiosVfCPUPowerManagement</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfCPUPowerManagement.html#BiosVfCPUPowerManagement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfCPUPowerManagement.BiosVfCPUPowerManagement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfCPUPowerManagement class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl">
+<span id="biosvfconsistentdevicenamecontrol-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfConsistentDeviceNameControl</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfConsistentDeviceNameControl ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl.BiosVfConsistentDeviceNameControl">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl.</code><code class="descname">BiosVfConsistentDeviceNameControl</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfConsistentDeviceNameControl.html#BiosVfConsistentDeviceNameControl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfConsistentDeviceNameControl.BiosVfConsistentDeviceNameControl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfConsistentDeviceNameControl class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfConsoleRedirection">
+<span id="biosvfconsoleredirection-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfConsoleRedirection</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfConsoleRedirection" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfConsoleRedirection ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfConsoleRedirection.BiosVfConsoleRedirection">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfConsoleRedirection.</code><code class="descname">BiosVfConsoleRedirection</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfConsoleRedirection.html#BiosVfConsoleRedirection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfConsoleRedirection.BiosVfConsoleRedirection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfConsoleRedirection class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfCoreMultiProcessing">
+<span id="biosvfcoremultiprocessing-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfCoreMultiProcessing</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfCoreMultiProcessing" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfCoreMultiProcessing ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfCoreMultiProcessing.BiosVfCoreMultiProcessing">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfCoreMultiProcessing.</code><code class="descname">BiosVfCoreMultiProcessing</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfCoreMultiProcessing.html#BiosVfCoreMultiProcessing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfCoreMultiProcessing.BiosVfCoreMultiProcessing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfCoreMultiProcessing class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfDDR3VoltageSelection">
+<span id="biosvfddr3voltageselection-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfDDR3VoltageSelection</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfDDR3VoltageSelection" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfDDR3VoltageSelection ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfDDR3VoltageSelection.BiosVfDDR3VoltageSelection">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfDDR3VoltageSelection.</code><code class="descname">BiosVfDDR3VoltageSelection</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfDDR3VoltageSelection.html#BiosVfDDR3VoltageSelection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfDDR3VoltageSelection.BiosVfDDR3VoltageSelection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfDDR3VoltageSelection class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfDRAMClockThrottling">
+<span id="biosvfdramclockthrottling-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfDRAMClockThrottling</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfDRAMClockThrottling" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfDRAMClockThrottling ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfDRAMClockThrottling.BiosVfDRAMClockThrottling">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfDRAMClockThrottling.</code><code class="descname">BiosVfDRAMClockThrottling</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfDRAMClockThrottling.html#BiosVfDRAMClockThrottling"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfDRAMClockThrottling.BiosVfDRAMClockThrottling" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfDRAMClockThrottling class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfDirectCacheAccess">
+<span id="biosvfdirectcacheaccess-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfDirectCacheAccess</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfDirectCacheAccess" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfDirectCacheAccess ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfDirectCacheAccess.BiosVfDirectCacheAccess">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfDirectCacheAccess.</code><code class="descname">BiosVfDirectCacheAccess</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfDirectCacheAccess.html#BiosVfDirectCacheAccess"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfDirectCacheAccess.BiosVfDirectCacheAccess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfDirectCacheAccess class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfDramRefreshRate">
+<span id="biosvfdramrefreshrate-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfDramRefreshRate</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfDramRefreshRate" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfDramRefreshRate ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfDramRefreshRate.BiosVfDramRefreshRate">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfDramRefreshRate.</code><code class="descname">BiosVfDramRefreshRate</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfDramRefreshRate.html#BiosVfDramRefreshRate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfDramRefreshRate.BiosVfDramRefreshRate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfDramRefreshRate class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech">
+<span id="biosvfenhancedintelspeedsteptech-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfEnhancedIntelSpeedStepTech</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfEnhancedIntelSpeedStepTech ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech.BiosVfEnhancedIntelSpeedStepTech">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech.</code><code class="descname">BiosVfEnhancedIntelSpeedStepTech</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfEnhancedIntelSpeedStepTech.html#BiosVfEnhancedIntelSpeedStepTech"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfEnhancedIntelSpeedStepTech.BiosVfEnhancedIntelSpeedStepTech" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfEnhancedIntelSpeedStepTech class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport">
+<span id="biosvfenhancedpowercappingsupport-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfEnhancedPowerCappingSupport</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfEnhancedPowerCappingSupport ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport.BiosVfEnhancedPowerCappingSupport">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport.</code><code class="descname">BiosVfEnhancedPowerCappingSupport</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfEnhancedPowerCappingSupport.html#BiosVfEnhancedPowerCappingSupport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfEnhancedPowerCappingSupport.BiosVfEnhancedPowerCappingSupport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfEnhancedPowerCappingSupport class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfExecuteDisableBit">
+<span id="biosvfexecutedisablebit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfExecuteDisableBit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfExecuteDisableBit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfExecuteDisableBit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfExecuteDisableBit.BiosVfExecuteDisableBit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfExecuteDisableBit.</code><code class="descname">BiosVfExecuteDisableBit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfExecuteDisableBit.html#BiosVfExecuteDisableBit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfExecuteDisableBit.BiosVfExecuteDisableBit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfExecuteDisableBit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfFRB2Timer">
+<span id="biosvffrb2timer-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfFRB2Timer</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfFRB2Timer" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfFRB2Timer ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfFRB2Timer.BiosVfFRB2Timer">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfFRB2Timer.</code><code class="descname">BiosVfFRB2Timer</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfFRB2Timer.html#BiosVfFRB2Timer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfFRB2Timer.BiosVfFRB2Timer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfFRB2Timer class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfFrequencyFloorOverride">
+<span id="biosvffrequencyflooroverride-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfFrequencyFloorOverride</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfFrequencyFloorOverride" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfFrequencyFloorOverride ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfFrequencyFloorOverride.BiosVfFrequencyFloorOverride">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfFrequencyFloorOverride.</code><code class="descname">BiosVfFrequencyFloorOverride</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfFrequencyFloorOverride.html#BiosVfFrequencyFloorOverride"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfFrequencyFloorOverride.BiosVfFrequencyFloorOverride" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfFrequencyFloorOverride class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfFrontPanelLockout">
+<span id="biosvffrontpanellockout-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfFrontPanelLockout</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfFrontPanelLockout" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfFrontPanelLockout ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfFrontPanelLockout.BiosVfFrontPanelLockout">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfFrontPanelLockout.</code><code class="descname">BiosVfFrontPanelLockout</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfFrontPanelLockout.html#BiosVfFrontPanelLockout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfFrontPanelLockout.BiosVfFrontPanelLockout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfFrontPanelLockout class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule">
+<span id="biosvfintelentrysasraidmodule-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelEntrySASRAIDModule</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelEntrySASRAIDModule ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule.BiosVfIntelEntrySASRAIDModule">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule.</code><code class="descname">BiosVfIntelEntrySASRAIDModule</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelEntrySASRAIDModule.html#BiosVfIntelEntrySASRAIDModule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelEntrySASRAIDModule.BiosVfIntelEntrySASRAIDModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelEntrySASRAIDModule class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech">
+<span id="biosvfintelhyperthreadingtech-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelHyperThreadingTech</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelHyperThreadingTech ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech.BiosVfIntelHyperThreadingTech">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech.</code><code class="descname">BiosVfIntelHyperThreadingTech</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelHyperThreadingTech.html#BiosVfIntelHyperThreadingTech"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelHyperThreadingTech.BiosVfIntelHyperThreadingTech" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelHyperThreadingTech class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology">
+<span id="biosvfinteltrustedexecutiontechnology-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelTrustedExecutionTechnology</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelTrustedExecutionTechnology ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology.BiosVfIntelTrustedExecutionTechnology">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology.</code><code class="descname">BiosVfIntelTrustedExecutionTechnology</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelTrustedExecutionTechnology.html#BiosVfIntelTrustedExecutionTechnology"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelTrustedExecutionTechnology.BiosVfIntelTrustedExecutionTechnology" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelTrustedExecutionTechnology class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelTurboBoostTech">
+<span id="biosvfintelturboboosttech-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelTurboBoostTech</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelTurboBoostTech" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelTurboBoostTech ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelTurboBoostTech.BiosVfIntelTurboBoostTech">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelTurboBoostTech.</code><code class="descname">BiosVfIntelTurboBoostTech</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelTurboBoostTech.html#BiosVfIntelTurboBoostTech"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelTurboBoostTech.BiosVfIntelTurboBoostTech" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelTurboBoostTech class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO">
+<span id="biosvfintelvtfordirectedio-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelVTForDirectedIO</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelVTForDirectedIO ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO.BiosVfIntelVTForDirectedIO">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO.</code><code class="descname">BiosVfIntelVTForDirectedIO</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelVTForDirectedIO.html#BiosVfIntelVTForDirectedIO"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelVTForDirectedIO.BiosVfIntelVTForDirectedIO" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelVTForDirectedIO class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology">
+<span id="biosvfintelvirtualizationtechnology-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfIntelVirtualizationTechnology</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfIntelVirtualizationTechnology ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology.BiosVfIntelVirtualizationTechnology">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology.</code><code class="descname">BiosVfIntelVirtualizationTechnology</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfIntelVirtualizationTechnology.html#BiosVfIntelVirtualizationTechnology"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfIntelVirtualizationTechnology.BiosVfIntelVirtualizationTechnology" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfIntelVirtualizationTechnology class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfInterleaveConfiguration">
+<span id="biosvfinterleaveconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfInterleaveConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfInterleaveConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfInterleaveConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfInterleaveConfiguration.BiosVfInterleaveConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfInterleaveConfiguration.</code><code class="descname">BiosVfInterleaveConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfInterleaveConfiguration.html#BiosVfInterleaveConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfInterleaveConfiguration.BiosVfInterleaveConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfInterleaveConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfLocalX2Apic">
+<span id="biosvflocalx2apic-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfLocalX2Apic</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfLocalX2Apic" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfLocalX2Apic ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfLocalX2Apic.BiosVfLocalX2Apic">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfLocalX2Apic.</code><code class="descname">BiosVfLocalX2Apic</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfLocalX2Apic.html#BiosVfLocalX2Apic"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfLocalX2Apic.BiosVfLocalX2Apic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfLocalX2Apic class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfLvDIMMSupport">
+<span id="biosvflvdimmsupport-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfLvDIMMSupport</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfLvDIMMSupport" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfLvDIMMSupport ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfLvDIMMSupport.BiosVfLvDIMMSupport">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfLvDIMMSupport.</code><code class="descname">BiosVfLvDIMMSupport</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfLvDIMMSupport.html#BiosVfLvDIMMSupport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfLvDIMMSupport.BiosVfLvDIMMSupport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfLvDIMMSupport class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting">
+<span id="biosvfmaxvariablemtrrsetting-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfMaxVariableMTRRSetting</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfMaxVariableMTRRSetting ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting.BiosVfMaxVariableMTRRSetting">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting.</code><code class="descname">BiosVfMaxVariableMTRRSetting</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfMaxVariableMTRRSetting.html#BiosVfMaxVariableMTRRSetting"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfMaxVariableMTRRSetting.BiosVfMaxVariableMTRRSetting" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfMaxVariableMTRRSetting class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB">
+<span id="biosvfmaximummemorybelow4gb-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfMaximumMemoryBelow4GB</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfMaximumMemoryBelow4GB ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB.BiosVfMaximumMemoryBelow4GB">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB.</code><code class="descname">BiosVfMaximumMemoryBelow4GB</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfMaximumMemoryBelow4GB.html#BiosVfMaximumMemoryBelow4GB"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfMaximumMemoryBelow4GB.BiosVfMaximumMemoryBelow4GB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfMaximumMemoryBelow4GB class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB">
+<span id="biosvfmemorymappedioabove4gb-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfMemoryMappedIOAbove4GB</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfMemoryMappedIOAbove4GB ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB.BiosVfMemoryMappedIOAbove4GB">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB.</code><code class="descname">BiosVfMemoryMappedIOAbove4GB</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfMemoryMappedIOAbove4GB.html#BiosVfMemoryMappedIOAbove4GB"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfMemoryMappedIOAbove4GB.BiosVfMemoryMappedIOAbove4GB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfMemoryMappedIOAbove4GB class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfMirroringMode">
+<span id="biosvfmirroringmode-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfMirroringMode</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfMirroringMode" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfMirroringMode ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfMirroringMode.BiosVfMirroringMode">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfMirroringMode.</code><code class="descname">BiosVfMirroringMode</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfMirroringMode.html#BiosVfMirroringMode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfMirroringMode.BiosVfMirroringMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfMirroringMode class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfNUMAOptimized">
+<span id="biosvfnumaoptimized-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfNUMAOptimized</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfNUMAOptimized" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfNUMAOptimized ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfNUMAOptimized.BiosVfNUMAOptimized">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfNUMAOptimized.</code><code class="descname">BiosVfNUMAOptimized</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfNUMAOptimized.html#BiosVfNUMAOptimized"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfNUMAOptimized.BiosVfNUMAOptimized" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfNUMAOptimized class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer">
+<span id="biosvfosbootwatchdogtimer-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOSBootWatchdogTimer</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOSBootWatchdogTimer ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer.BiosVfOSBootWatchdogTimer">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer.</code><code class="descname">BiosVfOSBootWatchdogTimer</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOSBootWatchdogTimer.html#BiosVfOSBootWatchdogTimer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOSBootWatchdogTimer.BiosVfOSBootWatchdogTimer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOSBootWatchdogTimer class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy">
+<span id="biosvfosbootwatchdogtimerpolicy-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOSBootWatchdogTimerPolicy</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOSBootWatchdogTimerPolicy ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy.BiosVfOSBootWatchdogTimerPolicy">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy.</code><code class="descname">BiosVfOSBootWatchdogTimerPolicy</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOSBootWatchdogTimerPolicy.html#BiosVfOSBootWatchdogTimerPolicy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerPolicy.BiosVfOSBootWatchdogTimerPolicy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOSBootWatchdogTimerPolicy class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout">
+<span id="biosvfosbootwatchdogtimertimeout-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOSBootWatchdogTimerTimeout</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOSBootWatchdogTimerTimeout ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout.BiosVfOSBootWatchdogTimerTimeout">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout.</code><code class="descname">BiosVfOSBootWatchdogTimerTimeout</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOSBootWatchdogTimerTimeout.html#BiosVfOSBootWatchdogTimerTimeout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOSBootWatchdogTimerTimeout.BiosVfOSBootWatchdogTimerTimeout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOSBootWatchdogTimerTimeout class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOnboardSATAController">
+<span id="biosvfonboardsatacontroller-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOnboardSATAController</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOnboardSATAController" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOnboardSATAController ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOnboardSATAController.BiosVfOnboardSATAController">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOnboardSATAController.</code><code class="descname">BiosVfOnboardSATAController</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOnboardSATAController.html#BiosVfOnboardSATAController"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOnboardSATAController.BiosVfOnboardSATAController" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOnboardSATAController class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOnboardStorage">
+<span id="biosvfonboardstorage-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOnboardStorage</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOnboardStorage" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOnboardStorage ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOnboardStorage.BiosVfOnboardStorage">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOnboardStorage.</code><code class="descname">BiosVfOnboardStorage</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOnboardStorage.html#BiosVfOnboardStorage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOnboardStorage.BiosVfOnboardStorage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOnboardStorage class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOptionROMEnable">
+<span id="biosvfoptionromenable-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOptionROMEnable</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOptionROMEnable" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOptionROMEnable ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOptionROMEnable.BiosVfOptionROMEnable">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOptionROMEnable.</code><code class="descname">BiosVfOptionROMEnable</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOptionROMEnable.html#BiosVfOptionROMEnable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOptionROMEnable.BiosVfOptionROMEnable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOptionROMEnable class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfOptionROMLoad">
+<span id="biosvfoptionromload-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfOptionROMLoad</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfOptionROMLoad" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfOptionROMLoad ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfOptionROMLoad.BiosVfOptionROMLoad">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfOptionROMLoad.</code><code class="descname">BiosVfOptionROMLoad</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfOptionROMLoad.html#BiosVfOptionROMLoad"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfOptionROMLoad.BiosVfOptionROMLoad" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfOptionROMLoad class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPCHSATAMode">
+<span id="biosvfpchsatamode-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPCHSATAMode</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPCHSATAMode" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPCHSATAMode ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPCHSATAMode.BiosVfPCHSATAMode">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPCHSATAMode.</code><code class="descname">BiosVfPCHSATAMode</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPCHSATAMode.html#BiosVfPCHSATAMode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPCHSATAMode.BiosVfPCHSATAMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPCHSATAMode class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration">
+<span id="biosvfpcilomportsconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPCILOMPortsConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPCILOMPortsConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration.BiosVfPCILOMPortsConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration.</code><code class="descname">BiosVfPCILOMPortsConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPCILOMPortsConfiguration.html#BiosVfPCILOMPortsConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPCILOMPortsConfiguration.BiosVfPCILOMPortsConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPCILOMPortsConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed">
+<span id="biosvfpcislotlinkspeed-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPCISlotLinkSpeed</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPCISlotLinkSpeed ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed.BiosVfPCISlotLinkSpeed">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed.</code><code class="descname">BiosVfPCISlotLinkSpeed</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPCISlotLinkSpeed.html#BiosVfPCISlotLinkSpeed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPCISlotLinkSpeed.BiosVfPCISlotLinkSpeed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPCISlotLinkSpeed class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable">
+<span id="biosvfpcislotoptionromenable-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPCISlotOptionROMEnable</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPCISlotOptionROMEnable ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable.BiosVfPCISlotOptionROMEnable">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable.</code><code class="descname">BiosVfPCISlotOptionROMEnable</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPCISlotOptionROMEnable.html#BiosVfPCISlotOptionROMEnable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPCISlotOptionROMEnable.BiosVfPCISlotOptionROMEnable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPCISlotOptionROMEnable class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPOSTErrorPause">
+<span id="biosvfposterrorpause-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPOSTErrorPause</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPOSTErrorPause" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPOSTErrorPause ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPOSTErrorPause.BiosVfPOSTErrorPause">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPOSTErrorPause.</code><code class="descname">BiosVfPOSTErrorPause</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPOSTErrorPause.html#BiosVfPOSTErrorPause"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPOSTErrorPause.BiosVfPOSTErrorPause" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPOSTErrorPause class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPSTATECoordination">
+<span id="biosvfpstatecoordination-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPSTATECoordination</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPSTATECoordination" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPSTATECoordination ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPSTATECoordination.BiosVfPSTATECoordination">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPSTATECoordination.</code><code class="descname">BiosVfPSTATECoordination</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPSTATECoordination.html#BiosVfPSTATECoordination"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPSTATECoordination.BiosVfPSTATECoordination" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPSTATECoordination class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfPackageCStateLimit">
+<span id="biosvfpackagecstatelimit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfPackageCStateLimit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfPackageCStateLimit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfPackageCStateLimit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfPackageCStateLimit.BiosVfPackageCStateLimit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfPackageCStateLimit.</code><code class="descname">BiosVfPackageCStateLimit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfPackageCStateLimit.html#BiosVfPackageCStateLimit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfPackageCStateLimit.BiosVfPackageCStateLimit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfPackageCStateLimit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorC1E">
+<span id="biosvfprocessorc1e-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorC1E</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorC1E" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorC1E ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorC1E.BiosVfProcessorC1E">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorC1E.</code><code class="descname">BiosVfProcessorC1E</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorC1E.html#BiosVfProcessorC1E"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorC1E.BiosVfProcessorC1E" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorC1E class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorC3Report">
+<span id="biosvfprocessorc3report-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorC3Report</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorC3Report" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorC3Report ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorC3Report.BiosVfProcessorC3Report">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorC3Report.</code><code class="descname">BiosVfProcessorC3Report</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorC3Report.html#BiosVfProcessorC3Report"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorC3Report.BiosVfProcessorC3Report" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorC3Report class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorC6Report">
+<span id="biosvfprocessorc6report-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorC6Report</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorC6Report" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorC6Report ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorC6Report.BiosVfProcessorC6Report">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorC6Report.</code><code class="descname">BiosVfProcessorC6Report</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorC6Report.html#BiosVfProcessorC6Report"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorC6Report.BiosVfProcessorC6Report" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorC6Report class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorC7Report">
+<span id="biosvfprocessorc7report-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorC7Report</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorC7Report" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorC7Report ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorC7Report.BiosVfProcessorC7Report">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorC7Report.</code><code class="descname">BiosVfProcessorC7Report</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorC7Report.html#BiosVfProcessorC7Report"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorC7Report.BiosVfProcessorC7Report" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorC7Report class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorCState">
+<span id="biosvfprocessorcstate-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorCState</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorCState" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorCState ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorCState.BiosVfProcessorCState">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorCState.</code><code class="descname">BiosVfProcessorCState</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorCState.html#BiosVfProcessorCState"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorCState.BiosVfProcessorCState" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorCState class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration">
+<span id="biosvfprocessorenergyconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorEnergyConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorEnergyConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration.BiosVfProcessorEnergyConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration.</code><code class="descname">BiosVfProcessorEnergyConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorEnergyConfiguration.html#BiosVfProcessorEnergyConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorEnergyConfiguration.BiosVfProcessorEnergyConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorEnergyConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig">
+<span id="biosvfprocessorprefetchconfig-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfProcessorPrefetchConfig</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfProcessorPrefetchConfig ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig.BiosVfProcessorPrefetchConfig">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig.</code><code class="descname">BiosVfProcessorPrefetchConfig</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfProcessorPrefetchConfig.html#BiosVfProcessorPrefetchConfig"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfProcessorPrefetchConfig.BiosVfProcessorPrefetchConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfProcessorPrefetchConfig class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect">
+<span id="biosvfqpilinkfrequencyselect-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfQPILinkFrequencySelect</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfQPILinkFrequencySelect ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect.BiosVfQPILinkFrequencySelect">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect.</code><code class="descname">BiosVfQPILinkFrequencySelect</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfQPILinkFrequencySelect.html#BiosVfQPILinkFrequencySelect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfQPILinkFrequencySelect.BiosVfQPILinkFrequencySelect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfQPILinkFrequencySelect class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfQPISnoopMode">
+<span id="biosvfqpisnoopmode-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfQPISnoopMode</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfQPISnoopMode" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfQPISnoopMode ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfQPISnoopMode.BiosVfQPISnoopMode">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfQPISnoopMode.</code><code class="descname">BiosVfQPISnoopMode</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfQPISnoopMode.html#BiosVfQPISnoopMode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfQPISnoopMode.BiosVfQPISnoopMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfQPISnoopMode class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfQuietBoot">
+<span id="biosvfquietboot-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfQuietBoot</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfQuietBoot" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfQuietBoot ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfQuietBoot.BiosVfQuietBoot">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfQuietBoot.</code><code class="descname">BiosVfQuietBoot</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfQuietBoot.html#BiosVfQuietBoot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfQuietBoot.BiosVfQuietBoot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfQuietBoot class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss">
+<span id="biosvfresumeonacpowerloss-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfResumeOnACPowerLoss</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfResumeOnACPowerLoss ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss.BiosVfResumeOnACPowerLoss">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss.</code><code class="descname">BiosVfResumeOnACPowerLoss</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfResumeOnACPowerLoss.html#BiosVfResumeOnACPowerLoss"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfResumeOnACPowerLoss.BiosVfResumeOnACPowerLoss" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfResumeOnACPowerLoss class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfScrubPolicies">
+<span id="biosvfscrubpolicies-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfScrubPolicies</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfScrubPolicies" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfScrubPolicies ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfScrubPolicies.BiosVfScrubPolicies">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfScrubPolicies.</code><code class="descname">BiosVfScrubPolicies</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfScrubPolicies.html#BiosVfScrubPolicies"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfScrubPolicies.BiosVfScrubPolicies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfScrubPolicies class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration">
+<span id="biosvfselectmemoryrasconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfSelectMemoryRASConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfSelectMemoryRASConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration.BiosVfSelectMemoryRASConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration.</code><code class="descname">BiosVfSelectMemoryRASConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfSelectMemoryRASConfiguration.html#BiosVfSelectMemoryRASConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfSelectMemoryRASConfiguration.BiosVfSelectMemoryRASConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfSelectMemoryRASConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfSerialPortAEnable">
+<span id="biosvfserialportaenable-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfSerialPortAEnable</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfSerialPortAEnable" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfSerialPortAEnable ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfSerialPortAEnable.BiosVfSerialPortAEnable">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfSerialPortAEnable.</code><code class="descname">BiosVfSerialPortAEnable</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfSerialPortAEnable.html#BiosVfSerialPortAEnable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfSerialPortAEnable.BiosVfSerialPortAEnable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfSerialPortAEnable class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfSparingMode">
+<span id="biosvfsparingmode-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfSparingMode</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfSparingMode" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfSparingMode ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfSparingMode.BiosVfSparingMode">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfSparingMode.</code><code class="descname">BiosVfSparingMode</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfSparingMode.html#BiosVfSparingMode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfSparingMode.BiosVfSparingMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfSparingMode class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfSriovConfig">
+<span id="biosvfsriovconfig-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfSriovConfig</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfSriovConfig" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfSriovConfig ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfSriovConfig.BiosVfSriovConfig">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfSriovConfig.</code><code class="descname">BiosVfSriovConfig</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfSriovConfig.html#BiosVfSriovConfig"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfSriovConfig.BiosVfSriovConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfSriovConfig class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfTPMPendingOperation">
+<span id="biosvftpmpendingoperation-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfTPMPendingOperation</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfTPMPendingOperation" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfTPMPendingOperation ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfTPMPendingOperation.BiosVfTPMPendingOperation">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfTPMPendingOperation.</code><code class="descname">BiosVfTPMPendingOperation</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfTPMPendingOperation.html#BiosVfTPMPendingOperation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfTPMPendingOperation.BiosVfTPMPendingOperation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfTPMPendingOperation class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfTPMSupport">
+<span id="biosvftpmsupport-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfTPMSupport</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfTPMSupport" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfTPMSupport ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfTPMSupport.BiosVfTPMSupport">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfTPMSupport.</code><code class="descname">BiosVfTPMSupport</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfTPMSupport.html#BiosVfTPMSupport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfTPMSupport.BiosVfTPMSupport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfTPMSupport class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfTrustedPlatformModule">
+<span id="biosvftrustedplatformmodule-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfTrustedPlatformModule</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfTrustedPlatformModule" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfTrustedPlatformModule ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfTrustedPlatformModule.BiosVfTrustedPlatformModule">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfTrustedPlatformModule.</code><code class="descname">BiosVfTrustedPlatformModule</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfTrustedPlatformModule.html#BiosVfTrustedPlatformModule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfTrustedPlatformModule.BiosVfTrustedPlatformModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfTrustedPlatformModule class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUCSMBootModeControl">
+<span id="biosvfucsmbootmodecontrol-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUCSMBootModeControl</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUCSMBootModeControl" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUCSMBootModeControl ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUCSMBootModeControl.BiosVfUCSMBootModeControl">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUCSMBootModeControl.</code><code class="descname">BiosVfUCSMBootModeControl</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUCSMBootModeControl.html#BiosVfUCSMBootModeControl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUCSMBootModeControl.BiosVfUCSMBootModeControl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUCSMBootModeControl class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl">
+<span id="biosvfucsmbootorderrulecontrol-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUCSMBootOrderRuleControl</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUCSMBootOrderRuleControl ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl.BiosVfUCSMBootOrderRuleControl">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl.</code><code class="descname">BiosVfUCSMBootOrderRuleControl</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUCSMBootOrderRuleControl.html#BiosVfUCSMBootOrderRuleControl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUCSMBootOrderRuleControl.BiosVfUCSMBootOrderRuleControl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUCSMBootOrderRuleControl class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo">
+<span id="biosvfuefiosuselegacyvideo-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUEFIOSUseLegacyVideo</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUEFIOSUseLegacyVideo ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo.BiosVfUEFIOSUseLegacyVideo">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo.</code><code class="descname">BiosVfUEFIOSUseLegacyVideo</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUEFIOSUseLegacyVideo.html#BiosVfUEFIOSUseLegacyVideo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUEFIOSUseLegacyVideo.BiosVfUEFIOSUseLegacyVideo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUEFIOSUseLegacyVideo class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUSBBootConfig">
+<span id="biosvfusbbootconfig-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUSBBootConfig</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUSBBootConfig" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUSBBootConfig ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUSBBootConfig.BiosVfUSBBootConfig">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUSBBootConfig.</code><code class="descname">BiosVfUSBBootConfig</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUSBBootConfig.html#BiosVfUSBBootConfig"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUSBBootConfig.BiosVfUSBBootConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUSBBootConfig class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUSBConfiguration">
+<span id="biosvfusbconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUSBConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUSBConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUSBConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUSBConfiguration.BiosVfUSBConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUSBConfiguration.</code><code class="descname">BiosVfUSBConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUSBConfiguration.html#BiosVfUSBConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUSBConfiguration.BiosVfUSBConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUSBConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock">
+<span id="biosvfusbfrontpanelaccesslock-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUSBFrontPanelAccessLock</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUSBFrontPanelAccessLock ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock.BiosVfUSBFrontPanelAccessLock">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock.</code><code class="descname">BiosVfUSBFrontPanelAccessLock</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUSBFrontPanelAccessLock.html#BiosVfUSBFrontPanelAccessLock"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUSBFrontPanelAccessLock.BiosVfUSBFrontPanelAccessLock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUSBFrontPanelAccessLock class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUSBPortConfiguration">
+<span id="biosvfusbportconfiguration-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUSBPortConfiguration</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUSBPortConfiguration" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUSBPortConfiguration ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUSBPortConfiguration.BiosVfUSBPortConfiguration">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUSBPortConfiguration.</code><code class="descname">BiosVfUSBPortConfiguration</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUSBPortConfiguration.html#BiosVfUSBPortConfiguration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUSBPortConfiguration.BiosVfUSBPortConfiguration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUSBPortConfiguration class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting">
+<span id="biosvfusbsystemidlepoweroptimizingsetting-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfUSBSystemIdlePowerOptimizingSetting</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfUSBSystemIdlePowerOptimizingSetting ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting.BiosVfUSBSystemIdlePowerOptimizingSetting">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting.</code><code class="descname">BiosVfUSBSystemIdlePowerOptimizingSetting</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfUSBSystemIdlePowerOptimizingSetting.html#BiosVfUSBSystemIdlePowerOptimizingSetting"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfUSBSystemIdlePowerOptimizingSetting.BiosVfUSBSystemIdlePowerOptimizingSetting" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfUSBSystemIdlePowerOptimizingSetting class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.bios.BiosVfVGAPriority">
+<span id="biosvfvgapriority-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">BiosVfVGAPriority</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.bios.BiosVfVGAPriority" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for BiosVfVGAPriority ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.bios.BiosVfVGAPriority.BiosVfVGAPriority">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.bios.BiosVfVGAPriority.</code><code class="descname">BiosVfVGAPriority</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/bios/BiosVfVGAPriority.html#BiosVfVGAPriority"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.bios.BiosVfVGAPriority.BiosVfVGAPriority" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is BiosVfVGAPriority class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.bmc.html" class="btn btn-neutral float-right" title="bmc Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.ape.html" class="btn btn-neutral" title="ape Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

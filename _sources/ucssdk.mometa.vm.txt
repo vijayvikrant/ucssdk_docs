@@ -1,0 +1,136 @@
+vm Package
+==========
+
+:mod:`VmComputeEp` Module
+-------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmComputeEp
+    :members:
+    :show-inheritance:
+
+:mod:`VmDC` Module
+------------------
+
+.. automodule:: ucssdk.mometa.vm.VmDC
+    :members:
+    :show-inheritance:
+
+:mod:`VmDCOrg` Module
+---------------------
+
+.. automodule:: ucssdk.mometa.vm.VmDCOrg
+    :members:
+    :show-inheritance:
+
+:mod:`VmEp` Module
+------------------
+
+.. automodule:: ucssdk.mometa.vm.VmEp
+    :members:
+    :show-inheritance:
+
+:mod:`VmHba` Module
+-------------------
+
+.. automodule:: ucssdk.mometa.vm.VmHba
+    :members:
+    :show-inheritance:
+
+:mod:`VmHv` Module
+------------------
+
+.. automodule:: ucssdk.mometa.vm.VmHv
+    :members:
+    :show-inheritance:
+
+:mod:`VmInstance` Module
+------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmInstance
+    :members:
+    :show-inheritance:
+
+:mod:`VmLifeCyclePolicy` Module
+-------------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmLifeCyclePolicy
+    :members:
+    :show-inheritance:
+
+:mod:`VmLifeCyclePolicyFsm` Module
+----------------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmLifeCyclePolicyFsm
+    :members:
+    :show-inheritance:
+
+:mod:`VmLifeCyclePolicyFsmStage` Module
+---------------------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmLifeCyclePolicyFsmStage
+    :members:
+    :show-inheritance:
+
+:mod:`VmLifeCyclePolicyFsmTask` Module
+--------------------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmLifeCyclePolicyFsmTask
+    :members:
+    :show-inheritance:
+
+:mod:`VmNic` Module
+-------------------
+
+.. automodule:: ucssdk.mometa.vm.VmNic
+    :members:
+    :show-inheritance:
+
+:mod:`VmOrg` Module
+-------------------
+
+.. automodule:: ucssdk.mometa.vm.VmOrg
+    :members:
+    :show-inheritance:
+
+:mod:`VmSwitch` Module
+----------------------
+
+.. automodule:: ucssdk.mometa.vm.VmSwitch
+    :members:
+    :show-inheritance:
+
+:mod:`VmVif` Module
+-------------------
+
+.. automodule:: ucssdk.mometa.vm.VmVif
+    :members:
+    :show-inheritance:
+
+:mod:`VmVlan` Module
+--------------------
+
+.. automodule:: ucssdk.mometa.vm.VmVlan
+    :members:
+    :show-inheritance:
+
+:mod:`VmVnicProfCl` Module
+--------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmVnicProfCl
+    :members:
+    :show-inheritance:
+
+:mod:`VmVnicProfInst` Module
+----------------------------
+
+.. automodule:: ucssdk.mometa.vm.VmVnicProfInst
+    :members:
+    :show-inheritance:
+
+:mod:`VmVsan` Module
+--------------------
+
+.. automodule:: ucssdk.mometa.vm.VmVsan
+    :members:
+    :show-inheritance:
+

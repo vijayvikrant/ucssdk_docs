@@ -1,0 +1,443 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>memory Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="mgmt Package" href="ucssdk.mometa.mgmt.html"/>
+        <link rel="prev" title="macpool Package" href="ucssdk.mometa.macpool.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>memory Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.memory.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="memory-package">
+<h1>memory Package<a class="headerlink" href="#memory-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryArray">
+<span id="memoryarray-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryArray</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryArray" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryArray ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryArray.MemoryArray">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryArray.</code><code class="descname">MemoryArray</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryArray.html#MemoryArray"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryArray.MemoryArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryArray class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryArrayEnvStats">
+<span id="memoryarrayenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryArrayEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryArrayEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryArrayEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryArrayEnvStats.MemoryArrayEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryArrayEnvStats.</code><code class="descname">MemoryArrayEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryArrayEnvStats.html#MemoryArrayEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryArrayEnvStats.MemoryArrayEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryArrayEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryArrayEnvStatsHist">
+<span id="memoryarrayenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryArrayEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryArrayEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryArrayEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryArrayEnvStatsHist.MemoryArrayEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryArrayEnvStatsHist.</code><code class="descname">MemoryArrayEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryArrayEnvStatsHist.html#MemoryArrayEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryArrayEnvStatsHist.MemoryArrayEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryArrayEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryBufferUnit">
+<span id="memorybufferunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryBufferUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryBufferUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryBufferUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryBufferUnit.MemoryBufferUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryBufferUnit.</code><code class="descname">MemoryBufferUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryBufferUnit.html#MemoryBufferUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryBufferUnit.MemoryBufferUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryBufferUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryBufferUnitEnvStats">
+<span id="memorybufferunitenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryBufferUnitEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryBufferUnitEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryBufferUnitEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryBufferUnitEnvStats.MemoryBufferUnitEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryBufferUnitEnvStats.</code><code class="descname">MemoryBufferUnitEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryBufferUnitEnvStats.html#MemoryBufferUnitEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryBufferUnitEnvStats.MemoryBufferUnitEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryBufferUnitEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryBufferUnitEnvStatsHist">
+<span id="memorybufferunitenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryBufferUnitEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryBufferUnitEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryBufferUnitEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryBufferUnitEnvStatsHist.MemoryBufferUnitEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryBufferUnitEnvStatsHist.</code><code class="descname">MemoryBufferUnitEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryBufferUnitEnvStatsHist.html#MemoryBufferUnitEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryBufferUnitEnvStatsHist.MemoryBufferUnitEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryBufferUnitEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryErrorStats">
+<span id="memoryerrorstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryErrorStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryErrorStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryErrorStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryErrorStats.MemoryErrorStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryErrorStats.</code><code class="descname">MemoryErrorStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryErrorStats.html#MemoryErrorStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryErrorStats.MemoryErrorStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryErrorStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryNvDimm">
+<span id="memorynvdimm-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryNvDimm</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryNvDimm" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryNvDimm ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryNvDimm.MemoryNvDimm">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryNvDimm.</code><code class="descname">MemoryNvDimm</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryNvDimm.html#MemoryNvDimm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryNvDimm.MemoryNvDimm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryNvDimm class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryNvDimmBattery">
+<span id="memorynvdimmbattery-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryNvDimmBattery</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryNvDimmBattery" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryNvDimmBattery ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryNvDimmBattery.MemoryNvDimmBattery">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryNvDimmBattery.</code><code class="descname">MemoryNvDimmBattery</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryNvDimmBattery.html#MemoryNvDimmBattery"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryNvDimmBattery.MemoryNvDimmBattery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryNvDimmBattery class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryNvDimmController">
+<span id="memorynvdimmcontroller-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryNvDimmController</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryNvDimmController" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryNvDimmController ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryNvDimmController.MemoryNvDimmController">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryNvDimmController.</code><code class="descname">MemoryNvDimmController</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryNvDimmController.html#MemoryNvDimmController"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryNvDimmController.MemoryNvDimmController" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryNvDimmController class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryNvDimmEnvStats">
+<span id="memorynvdimmenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryNvDimmEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryNvDimmEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryNvDimmEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryNvDimmEnvStats.MemoryNvDimmEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryNvDimmEnvStats.</code><code class="descname">MemoryNvDimmEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryNvDimmEnvStats.html#MemoryNvDimmEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryNvDimmEnvStats.MemoryNvDimmEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryNvDimmEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryNvDimmEnvStatsHist">
+<span id="memorynvdimmenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryNvDimmEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryNvDimmEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryNvDimmEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryNvDimmEnvStatsHist.MemoryNvDimmEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryNvDimmEnvStatsHist.</code><code class="descname">MemoryNvDimmEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryNvDimmEnvStatsHist.html#MemoryNvDimmEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryNvDimmEnvStatsHist.MemoryNvDimmEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryNvDimmEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryQual">
+<span id="memoryqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryQual.MemoryQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryQual.</code><code class="descname">MemoryQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryQual.html#MemoryQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryQual.MemoryQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryRuntime">
+<span id="memoryruntime-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryRuntime</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryRuntime" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryRuntime ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryRuntime.MemoryRuntime">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryRuntime.</code><code class="descname">MemoryRuntime</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>type</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryRuntime.html#MemoryRuntime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryRuntime.MemoryRuntime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryRuntime class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryRuntimeHist">
+<span id="memoryruntimehist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryRuntimeHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryRuntimeHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryRuntimeHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryRuntimeHist.MemoryRuntimeHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryRuntimeHist.</code><code class="descname">MemoryRuntimeHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryRuntimeHist.html#MemoryRuntimeHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryRuntimeHist.MemoryRuntimeHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryRuntimeHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryUnit">
+<span id="memoryunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryUnit.MemoryUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryUnit.</code><code class="descname">MemoryUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryUnit.html#MemoryUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryUnit.MemoryUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryUnitEnvStats">
+<span id="memoryunitenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryUnitEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryUnitEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryUnitEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryUnitEnvStats.MemoryUnitEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryUnitEnvStats.</code><code class="descname">MemoryUnitEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryUnitEnvStats.html#MemoryUnitEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryUnitEnvStats.MemoryUnitEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryUnitEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.memory.MemoryUnitEnvStatsHist">
+<span id="memoryunitenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">MemoryUnitEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.memory.MemoryUnitEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for MemoryUnitEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.memory.MemoryUnitEnvStatsHist.MemoryUnitEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.memory.MemoryUnitEnvStatsHist.</code><code class="descname">MemoryUnitEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/memory/MemoryUnitEnvStatsHist.html#MemoryUnitEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.memory.MemoryUnitEnvStatsHist.MemoryUnitEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is MemoryUnitEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.mgmt.html" class="btn btn-neutral float-right" title="mgmt Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.macpool.html" class="btn btn-neutral" title="macpool Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

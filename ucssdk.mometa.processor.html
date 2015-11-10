@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>processor Package &mdash; ucssdk 0.1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="ucssdk 0.1.0 documentation" href="index.html"/>
+        <link rel="up" title="mometa Package" href="ucssdk.mometa.html"/>
+        <link rel="next" title="qosclass Package" href="ucssdk.mometa.qosclass.html"/>
+        <link rel="prev" title="proc Package" href="ucssdk.mometa.proc.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ucssdk
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ucssdk.html">ucssdk package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ucssdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.methodmeta.html">methodmeta Package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ucssdk.mometa.html">mometa Package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="ucssdk.mometa.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ucssdk.utils.html">utils Package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsbasetype">ucssdk.ucsbasetype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsconnectiondriver">ucssdk.ucsconnectiondriver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscore">ucssdk.ucscore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoremeta">ucssdk.ucscoremeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucscoreutils">ucssdk.ucscoreutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucseventhandler">ucssdk.ucseventhandler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsexception">ucssdk.ucsexception module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfilter">ucssdk.ucsfilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsfiltertype">ucssdk.ucsfiltertype module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsgenutils">ucssdk.ucsgenutils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucshandle">ucssdk.ucshandle module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmeta">ucssdk.ucsmeta module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethod">ucssdk.ucsmethod module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmethodfactory">ucssdk.ucsmethodfactory module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsmo">ucssdk.ucsmo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucssession">ucssdk.ucssession module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk.ucsxmlcodec">ucssdk.ucsxmlcodec module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ucssdk.html#module-ucssdk">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">ucssdk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Credits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html#id1">0.1.0 (2015-01-11)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">ucssdk</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="ucssdk.html">ucssdk package</a> &raquo;</li>
+      
+          <li><a href="ucssdk.mometa.html">mometa Package</a> &raquo;</li>
+      
+    <li>processor Package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ucssdk.mometa.processor.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="processor-package">
+<h1>processor Package<a class="headerlink" href="#processor-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorCore">
+<span id="processorcore-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorCore</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorCore" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorCore ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorCore.ProcessorCore">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorCore.</code><code class="descname">ProcessorCore</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorCore.html#ProcessorCore"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorCore.ProcessorCore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorCore class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorEnvStats">
+<span id="processorenvstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorEnvStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorEnvStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorEnvStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorEnvStats.ProcessorEnvStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorEnvStats.</code><code class="descname">ProcessorEnvStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorEnvStats.html#ProcessorEnvStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorEnvStats.ProcessorEnvStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorEnvStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorEnvStatsHist">
+<span id="processorenvstatshist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorEnvStatsHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorEnvStatsHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorEnvStatsHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorEnvStatsHist.ProcessorEnvStatsHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorEnvStatsHist.</code><code class="descname">ProcessorEnvStatsHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorEnvStatsHist.html#ProcessorEnvStatsHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorEnvStatsHist.ProcessorEnvStatsHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorEnvStatsHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorErrorStats">
+<span id="processorerrorstats-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorErrorStats</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorErrorStats" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorErrorStats ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorErrorStats.ProcessorErrorStats">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorErrorStats.</code><code class="descname">ProcessorErrorStats</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorErrorStats.html#ProcessorErrorStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorErrorStats.ProcessorErrorStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorErrorStats class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorQual">
+<span id="processorqual-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorQual</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorQual" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorQual ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorQual.ProcessorQual">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorQual.</code><code class="descname">ProcessorQual</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorQual.html#ProcessorQual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorQual.ProcessorQual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorQual class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorRuntime">
+<span id="processorruntime-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorRuntime</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorRuntime" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorRuntime ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorRuntime.ProcessorRuntime">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorRuntime.</code><code class="descname">ProcessorRuntime</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorRuntime.html#ProcessorRuntime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorRuntime.ProcessorRuntime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorRuntime class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorRuntimeHist">
+<span id="processorruntimehist-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorRuntimeHist</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorRuntimeHist" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorRuntimeHist ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorRuntimeHist.ProcessorRuntimeHist">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorRuntimeHist.</code><code class="descname">ProcessorRuntimeHist</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorRuntimeHist.html#ProcessorRuntimeHist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorRuntimeHist.ProcessorRuntimeHist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorRuntimeHist class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorThread">
+<span id="processorthread-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorThread</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorThread" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorThread ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorThread.ProcessorThread">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorThread.</code><code class="descname">ProcessorThread</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorThread.html#ProcessorThread"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorThread.ProcessorThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorThread class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorUnit">
+<span id="processorunit-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorUnit</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorUnit" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorUnit ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorUnit.ProcessorUnit">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorUnit.</code><code class="descname">ProcessorUnit</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>id</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorUnit.html#ProcessorUnit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorUnit.ProcessorUnit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorUnit class.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-ucssdk.mometa.processor.ProcessorUnitAssocCtx">
+<span id="processorunitassocctx-module"></span><h2><code class="xref py py-mod docutils literal"><span class="pre">ProcessorUnitAssocCtx</span></code> Module<a class="headerlink" href="#module-ucssdk.mometa.processor.ProcessorUnitAssocCtx" title="Permalink to this headline">¶</a></h2>
+<p>This module contains the general information for ProcessorUnitAssocCtx ManagedObject.</p>
+<dl class="class">
+<dt id="ucssdk.mometa.processor.ProcessorUnitAssocCtx.ProcessorUnitAssocCtx">
+<em class="property">class </em><code class="descclassname">ucssdk.mometa.processor.ProcessorUnitAssocCtx.</code><code class="descname">ProcessorUnitAssocCtx</code><span class="sig-paren">(</span><em>parent_mo_or_dn</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/ucssdk/mometa/processor/ProcessorUnitAssocCtx.html#ProcessorUnitAssocCtx"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ucssdk.mometa.processor.ProcessorUnitAssocCtx.ProcessorUnitAssocCtx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">ucsmo.ManagedObject</span></code></p>
+<p>This is ProcessorUnitAssocCtx class.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ucssdk.mometa.qosclass.html" class="btn btn-neutral float-right" title="qosclass Package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ucssdk.mometa.proc.html" class="btn btn-neutral" title="proc Package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Cisco.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+============
+Installation
+============
+
+At the command line::
+
+    $ easy_install ucssdk
+
+Or, if you have virtualenvwrapper installed::
+
+    $ mkvirtualenv ucssdk
+    $ pip install ucssdk
